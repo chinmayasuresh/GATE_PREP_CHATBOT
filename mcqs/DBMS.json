@@ -1,0 +1,905 @@
+[
+  
+    {
+      "id": 1,
+      "question": "What is the primary purpose of a Database Management System (DBMS)?",
+      "options": {
+        "A": "To create spreadsheets",
+        "B": "To store, retrieve, and manage data efficiently",
+        "C": "To design websites",
+        "D": "To manage computer hardware"
+      },
+      "answer": "B",
+      "explanation": "A DBMS is software designed to store, retrieve, define, and manage data in a database."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a DBMS?",
+      "options": {
+        "A": "MySQL",
+        "B": "Oracle",
+        "C": "MongoDB",
+        "D": "Microsoft Word"
+      },
+      "answer": "D",
+      "explanation": "Microsoft Word is a word processing application, not a database management system."
+    },
+    {
+      "id": 3,
+      "question": "What does ACID stand for in database transactions?",
+      "options": {
+        "A": "Atomicity, Consistency, Isolation, Durability",
+        "B": "Accuracy, Consistency, Integrity, Durability",
+        "C": "Atomicity, Concurrency, Integrity, Durability",
+        "D": "Accuracy, Concurrency, Isolation, Durability"
+      },
+      "answer": "A",
+      "explanation": "ACID properties ensure reliable processing of database transactions: Atomicity (all or nothing), Consistency (valid state transition), Isolation (concurrent transactions don't interfere), Durability (committed transactions persist)."
+    },
+    {
+      "id": 4,
+      "question": "Which SQL command is used to retrieve data from a database?",
+      "options": {
+        "A": "GET",
+        "B": "SELECT",
+        "C": "RETRIEVE",
+        "D": "FETCH"
+      },
+      "answer": "B",
+      "explanation": "The SELECT statement is used to query and retrieve data from database tables."
+    },
+    {
+      "id": 5,
+      "question": "What is a primary key in a database table?",
+      "options": {
+        "A": "A key that opens the database",
+        "B": "A field that uniquely identifies each record in a table",
+        "C": "The first column in every table",
+        "D": "A password for database access"
+      },
+      "answer": "B",
+      "explanation": "A primary key is a column (or set of columns) that uniquely identifies each row in a table and cannot contain NULL values."
+    },
+    {
+      "id": 6,
+      "question": "Which type of database model organizes data in a tree-like structure?",
+      "options": {
+        "A": "Relational",
+        "B": "Hierarchical",
+        "C": "Network",
+        "D": "Object-oriented"
+      },
+      "answer": "B",
+      "explanation": "The hierarchical model organizes data in a parent-child tree structure where each parent can have multiple children but each child has only one parent."
+    },
+    {
+      "id": 7,
+      "question": "What is normalization in database design?",
+      "options": {
+        "A": "The process of organizing data to minimize redundancy",
+        "B": "Making all data uppercase",
+        "C": "Converting data to a standard format",
+        "D": "Backing up database files"
+      },
+      "answer": "A",
+      "explanation": "Normalization is the process of structuring a database to reduce data redundancy and improve data integrity by dividing tables and establishing relationships between them."
+    },
+    {
+      "id": 8,
+      "question": "Which SQL clause is used to filter rows in a SELECT statement?",
+      "options": {
+        "A": "FILTER BY",
+        "B": "WHERE",
+        "C": "HAVING",
+        "D": "LIMIT"
+      },
+      "answer": "B",
+      "explanation": "The WHERE clause specifies conditions that filter which rows are returned in the query results."
+    },
+    {
+      "id": 9,
+      "question": "What is a foreign key?",
+      "options": {
+        "A": "A key that doesn't work properly",
+        "B": "A field that establishes a relationship between two tables",
+        "C": "A secondary primary key",
+        "D": "An encrypted database key"
+      },
+      "answer": "B",
+      "explanation": "A foreign key is a column or set of columns that references the primary key of another table, establishing a relationship between the two tables."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is NOT a type of database relationship?",
+      "options": {
+        "A": "One-to-One",
+        "B": "One-to-Many",
+        "C": "Many-to-Many",
+        "D": "All-to-None"
+      },
+      "answer": "D",
+      "explanation": "The main types of database relationships are one-to-one, one-to-many, and many-to-many. 'All-to-None' is not a valid relationship type."
+    },
+    {
+      "id": 11,
+      "question": "What does SQL stand for?",
+      "options": {
+        "A": "Structured Query Language",
+        "B": "Simple Question Language",
+        "C": "System Query Logic",
+        "D": "Standard Question Line"
+      },
+      "answer": "A",
+      "explanation": "SQL stands for Structured Query Language, the standard language for relational database management systems."
+    },
+    {
+      "id": 12,
+      "question": "Which SQL command is used to add new records to a table?",
+      "options": {
+        "A": "ADD",
+        "B": "CREATE",
+        "C": "INSERT",
+        "D": "UPDATE"
+      },
+      "answer": "C",
+      "explanation": "The INSERT statement is used to add new rows/records to a table in the database."
+    },
+    {
+      "id": 13,
+      "question": "What is a database index?",
+      "options": {
+        "A": "A table of contents for the database",
+        "B": "A data structure that improves the speed of data retrieval",
+        "C": "A list of all database users",
+        "D": "A summary of database statistics"
+      },
+      "answer": "B",
+      "explanation": "An index is a database structure that provides faster access to data by creating pointers to where data is stored, similar to an index in a book."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is NOT a NoSQL database?",
+      "options": {
+        "A": "MongoDB",
+        "B": "Cassandra",
+        "C": "PostgreSQL",
+        "D": "Redis"
+      },
+      "answer": "C",
+      "explanation": "PostgreSQL is a relational database system (RDBMS), while the others are NoSQL databases."
+    },
+    {
+      "id": 15,
+      "question": "What is a database transaction?",
+      "options": {
+        "A": "A single SQL statement",
+        "B": "A sequence of operations performed as a single logical unit of work",
+        "C": "The process of backing up a database",
+        "D": "A database import/export operation"
+      },
+      "answer": "B",
+      "explanation": "A transaction is a sequence of database operations that are treated as a single logical unit that either completely succeeds or fails entirely (ACID properties)."
+    },
+    {
+      "id": 16,
+      "question": "Which SQL command is used to modify existing records in a table?",
+      "options": {
+        "A": "MODIFY",
+        "B": "CHANGE",
+        "C": "UPDATE",
+        "D": "ALTER"
+      },
+      "answer": "C",
+      "explanation": "The UPDATE statement is used to modify existing records in a table."
+    },
+    {
+      "id": 17,
+      "question": "What is a database view?",
+      "options": {
+        "A": "A graphical representation of database tables",
+        "B": "A virtual table based on the result-set of a SQL statement",
+        "C": "The user interface for database administration",
+        "D": "A diagram of database relationships"
+      },
+      "answer": "B",
+      "explanation": "A view is a virtual table that contains data from one or more tables, defined by a SQL query. It doesn't store data itself but presents data from underlying tables."
+    },
+    {
+      "id": 18,
+      "question": "Which normal form requires that a table has no partial dependencies?",
+      "options": {
+        "A": "First Normal Form (1NF)",
+        "B": "Second Normal Form (2NF)",
+        "C": "Third Normal Form (3NF)",
+        "D": "Boyce-Codd Normal Form (BCNF)"
+      },
+      "answer": "B",
+      "explanation": "Second Normal Form (2NF) requires that a table is in 1NF and has no partial dependencies (all non-key attributes depend on the entire primary key)."
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of the GROUP BY clause in SQL?",
+      "options": {
+        "A": "To organize the physical storage of data",
+        "B": "To group rows that have the same values in specified columns",
+        "C": "To sort the result set in ascending order",
+        "D": "To combine multiple tables"
+      },
+      "answer": "B",
+      "explanation": "GROUP BY groups rows that have the same values in specified columns, typically used with aggregate functions like COUNT, SUM, AVG, etc."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is NOT a valid SQL constraint?",
+      "options": {
+        "A": "PRIMARY KEY",
+        "B": "FOREIGN KEY",
+        "C": "UNIQUE",
+        "D": "ALTERNATE KEY"
+      },
+      "answer": "D",
+      "explanation": "The valid SQL constraints are PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, NOT NULL, and DEFAULT. 'ALTERNATE KEY' is not a standard SQL constraint."
+    },
+    {
+      "id": 21,
+      "question": "What is a database trigger?",
+      "options": {
+        "A": "A stored procedure that automatically executes in response to specific events",
+        "B": "A security mechanism for databases",
+        "C": "A tool for database backup",
+        "D": "A type of database index"
+      },
+      "answer": "A",
+      "explanation": "A trigger is a stored procedure that automatically executes when a specified database event occurs (INSERT, UPDATE, DELETE, etc.) on a particular table or view."
+    },
+    {
+      "id": 22,
+      "question": "Which SQL command is used to remove records from a table?",
+      "options": {
+        "A": "REMOVE",
+        "B": "DELETE",
+        "C": "DROP",
+        "D": "ERASE"
+      },
+      "answer": "B",
+      "explanation": "The DELETE statement is used to remove records from a table (can be conditional with WHERE clause). DROP removes entire database objects."
+    },
+    {
+      "id": 23,
+      "question": "What is the difference between DELETE and TRUNCATE in SQL?",
+      "options": {
+        "A": "DELETE removes specific rows, TRUNCATE removes all rows",
+        "B": "DELETE can be rolled back, TRUNCATE cannot",
+        "C": "DELETE fires triggers, TRUNCATE does not",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "DELETE is DML (can be rolled back, fires triggers, can have WHERE clause). TRUNCATE is DDL (faster, resets identity counters, can't be filtered)."
+    },
+    {
+      "id": 24,
+      "question": "What is a stored procedure in a database?",
+      "options": {
+        "A": "A backup copy of the database",
+        "B": "A prepared SQL query that can be saved and reused",
+        "C": "The physical storage location of database files",
+        "D": "A type of database index"
+      },
+      "answer": "B",
+      "explanation": "A stored procedure is a prepared SQL code that can be saved and reused, typically used to encapsulate complex operations and improve performance."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is NOT a valid SQL join type?",
+      "options": {
+        "A": "INNER JOIN",
+        "B": "OUTER JOIN",
+        "C": "CROSS JOIN",
+        "D": "DIAGONAL JOIN"
+      },
+      "answer": "D",
+      "explanation": "Valid SQL joins include INNER, LEFT (OUTER), RIGHT (OUTER), FULL (OUTER), CROSS, and SELF joins. 'DIAGONAL JOIN' is not a valid join type."
+    },
+    {
+      "id": 26,
+      "question": "What is the purpose of the HAVING clause in SQL?",
+      "options": {
+        "A": "To filter rows before grouping",
+        "B": "To filter groups after the GROUP BY clause",
+        "C": "To sort the result set",
+        "D": "To join multiple tables"
+      },
+      "answer": "B",
+      "explanation": "HAVING filters groups created by GROUP BY (similar to WHERE but for groups rather than individual rows), typically used with aggregate functions."
+    },
+    {
+      "id": 27,
+      "question": "Which SQL command is used to change the structure of a table?",
+      "options": {
+        "A": "UPDATE",
+        "B": "MODIFY",
+        "C": "ALTER",
+        "D": "CHANGE"
+      },
+      "answer": "C",
+      "explanation": "The ALTER TABLE statement is used to add, delete, or modify columns in an existing table (changes the structure, not the data)."
+    },
+    {
+      "id": 28,
+      "question": "What is database denormalization?",
+      "options": {
+        "A": "The process of removing all constraints from a database",
+        "B": "The intentional introduction of redundancy to improve performance",
+        "C": "The process of converting a database to first normal form",
+        "D": "The removal of all indexes from a database"
+      },
+      "answer": "B",
+      "explanation": "Denormalization is the strategic introduction of redundancy to improve read performance, typically after normalization when read performance is more critical than write performance."
+    },
+    {
+      "id": 29,
+      "question": "Which of the following is NOT a valid SQL data type?",
+      "options": {
+        "A": "VARCHAR",
+        "B": "INTEGER",
+        "C": "BOOLEAN",
+        "D": "LOOP"
+      },
+      "answer": "D",
+      "explanation": "Common SQL data types include VARCHAR (string), INTEGER (number), BOOLEAN (true/false), DATE, etc. 'LOOP' is a programming construct, not a data type."
+    },
+    {
+      "id": 30,
+      "question": "What is a deadlock in database systems?",
+      "options": {
+        "A": "A security breach in the database",
+        "B": "A situation where two or more transactions are waiting for each other to release locks",
+        "C": "A corrupted database file",
+        "D": "A type of database backup"
+      },
+      "answer": "B",
+      "explanation": "A deadlock occurs when two or more transactions permanently block each other by each holding a lock on a resource the other needs."
+    },
+    {
+      "id": 31,
+      "question": "What is the purpose of the COMMIT statement in SQL?",
+      "options": {
+        "A": "To create a new database",
+        "B": "To permanently save all changes made in the current transaction",
+        "C": "To merge two databases",
+        "D": "To compare two tables"
+      },
+      "answer": "B",
+      "explanation": "COMMIT permanently saves all changes made during the current transaction to the database and ends the transaction."
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is NOT a valid type of database backup?",
+      "options": {
+        "A": "Full backup",
+        "B": "Differential backup",
+        "C": "Incremental backup",
+        "D": "Alternative backup"
+      },
+      "answer": "D",
+      "explanation": "Valid backup types include full (complete copy), differential (changes since last full), and incremental (changes since last backup). 'Alternative backup' is not a standard term."
+    },
+    {
+      "id": 33,
+      "question": "What is the purpose of the ROLLBACK statement in SQL?",
+      "options": {
+        "A": "To undo changes made in the current transaction",
+        "B": "To go back to a previous database version",
+        "C": "To reverse the order of rows in a table",
+        "D": "To delete all records from a table"
+      },
+      "answer": "A",
+      "explanation": "ROLLBACK undoes all changes made in the current transaction and ends the transaction, reverting to the state before the transaction began."
+    },
+    {
+      "id": 34,
+      "question": "What is a database cursor?",
+      "options": {
+        "A": "A blinking indicator in database software",
+        "B": "A database object used to process individual rows returned by a query",
+        "C": "A type of database index",
+        "D": "A tool for database design"
+      },
+      "answer": "B",
+      "explanation": "A cursor is a database object that enables traversal over the rows in a result set, allowing row-by-row processing of query results."
+    },
+    {
+      "id": 35,
+      "question": "Which SQL command is used to create a new database?",
+      "options": {
+        "A": "NEW DATABASE",
+        "B": "CREATE DATABASE",
+        "C": "ADD DATABASE",
+        "D": "MAKE DATABASE"
+      },
+      "answer": "B",
+      "explanation": "The CREATE DATABASE statement is used to create a new database in the DBMS."
+    },
+    {
+      "id": 36,
+      "question": "What is database replication?",
+      "options": {
+        "A": "The process of copying and maintaining database objects in multiple databases",
+        "B": "The process of normalizing a database",
+        "C": "The process of backing up a database",
+        "D": "The process of encrypting a database"
+      },
+      "answer": "A",
+      "explanation": "Replication is the process of copying and maintaining database objects across multiple databases to improve availability and performance."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is NOT a valid SQL aggregate function?",
+      "options": {
+        "A": "SUM",
+        "B": "AVG",
+        "C": "COUNT",
+        "D": "COMPARE"
+      },
+      "answer": "D",
+      "explanation": "Common SQL aggregate functions include SUM, AVG, COUNT, MAX, MIN. 'COMPARE' is not an aggregate function."
+    },
+    {
+      "id": 38,
+      "question": "What is a database schema?",
+      "options": {
+        "A": "The physical storage structure of a database",
+        "B": "The logical structure or blueprint of a database",
+        "C": "A database backup file",
+        "D": "A database user interface"
+      },
+      "answer": "B",
+      "explanation": "A schema is the logical structure of a database - the organization of data as a blueprint of how the database is constructed (tables, views, etc.)."
+    },
+    {
+      "id": 39,
+      "question": "What is the purpose of the DISTINCT keyword in SQL?",
+      "options": {
+        "A": "To select only unique rows",
+        "B": "To mark important records",
+        "C": "To create a separate table",
+        "D": "To encrypt data"
+      },
+      "answer": "A",
+      "explanation": "DISTINCT eliminates duplicate rows from the query results, returning only unique rows."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following is NOT a valid type of database lock?",
+      "options": {
+        "A": "Shared lock",
+        "B": "Exclusive lock",
+        "C": "Update lock",
+        "D": "Public lock"
+      },
+      "answer": "D",
+      "explanation": "Common database lock types include shared (read), exclusive (write), and update (intent to write). 'Public lock' is not a valid lock type."
+    },
+    {
+      "id": 41,
+      "question": "What is database sharding?",
+      "options": {
+        "A": "The process of breaking a database into smaller, faster pieces",
+        "B": "The process of encrypting database files",
+        "C": "The process of backing up a database",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Sharding is a horizontal partitioning technique where a database is divided into smaller, faster pieces called shards, each stored on separate servers."
+    },
+    {
+      "id": 42,
+      "question": "Which SQL command is used to grant privileges to database users?",
+      "options": {
+        "A": "ALLOW",
+        "B": "PERMIT",
+        "C": "GRANT",
+        "D": "AUTHORIZE"
+      },
+      "answer": "C",
+      "explanation": "The GRANT statement is used to give specific privileges to database users or roles."
+    },
+    {
+      "id": 43,
+      "question": "What is the purpose of the SQL LIKE operator?",
+      "options": {
+        "A": "To compare two values for equality",
+        "B": "To search for a specified pattern in a column",
+        "C": "To join two tables",
+        "D": "To sort query results"
+      },
+      "answer": "B",
+      "explanation": "LIKE is used in WHERE clauses to search for a specified pattern in a column, often with wildcards % (any string) and _ (single character)."
+    },
+    {
+      "id": 44,
+      "question": "What is a database checkpoint?",
+      "options": {
+        "A": "A security feature",
+        "B": "A point at which all dirty pages are written to disk",
+        "C": "A type of database backup",
+        "D": "A database performance metric"
+      },
+      "answer": "B",
+      "explanation": "A checkpoint is a point where the DBMS writes all modified (dirty) pages in memory to disk, ensuring data consistency and aiding recovery."
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is NOT a valid type of database constraint?",
+      "options": {
+        "A": "NOT NULL",
+        "B": "CHECK",
+        "C": "DEFAULT",
+        "D": "REQUIRED"
+      },
+      "answer": "D",
+      "explanation": "Valid SQL constraints include NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT. 'REQUIRED' is not a standard constraint."
+    },
+    {
+      "id": 46,
+      "question": "What is database mirroring?",
+      "options": {
+        "A": "Creating an exact copy of a database on another server",
+        "B": "Displaying database contents on a monitor",
+        "C": "A type of database backup",
+        "D": "A database security technique"
+      },
+      "answer": "A",
+      "explanation": "Mirroring maintains an exact copy (mirror) of a database on another server, providing high availability and disaster recovery."
+    },
+    {
+      "id": 47,
+      "question": "Which SQL command is used to remove a table from a database?",
+      "options": {
+        "A": "DELETE TABLE",
+        "B": "REMOVE TABLE",
+        "C": "DROP TABLE",
+        "D": "ERASE TABLE"
+      },
+      "answer": "C",
+      "explanation": "DROP TABLE removes the table structure and all its data from the database permanently."
+    },
+    {
+      "id": 48,
+      "question": "What is database caching?",
+      "options": {
+        "A": "Storing frequently accessed data in memory for faster retrieval",
+        "B": "The process of encrypting database files",
+        "C": "A type of database backup",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Caching stores frequently accessed data in memory (cache) to reduce disk I/O and improve performance."
+    },
+    {
+      "id": 49,
+      "question": "Which of the following is NOT a valid SQL transaction isolation level?",
+      "options": {
+        "A": "READ UNCOMMITTED",
+        "B": "READ COMMITTED",
+        "C": "REPEATABLE READ",
+        "D": "READ REPEATABLE"
+      },
+      "answer": "D",
+      "explanation": "Standard isolation levels are READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, and SERIALIZABLE. 'READ REPEATABLE' is not a valid level."
+    },
+    {
+      "id": 50,
+      "question": "What is the purpose of the SQL UNION operator?",
+      "options": {
+        "A": "To combine the result sets of two or more SELECT statements",
+        "B": "To join two tables",
+        "C": "To update multiple tables at once",
+        "D": "To create a new table from existing tables"
+      },
+      "answer": "A",
+      "explanation": "UNION combines the result sets of two or more SELECT statements (removing duplicates by default; UNION ALL keeps duplicates)."
+    },
+    {
+      "id": 51,
+      "question": "What is database clustering?",
+      "options": {
+        "A": "Grouping similar data together for efficient access",
+        "B": "Connecting multiple database servers to work as one",
+        "C": "A type of database backup",
+        "D": "A database security technique"
+      },
+      "answer": "B",
+      "explanation": "Clustering involves multiple database servers working together as a single system to provide high availability and load balancing."
+    },
+    {
+      "id": 52,
+      "question": "Which SQL command is used to revoke privileges from database users?",
+      "options": {
+        "A": "DENY",
+        "B": "REVOKE",
+        "C": "REMOVE",
+        "D": "BLOCK"
+      },
+      "answer": "B",
+      "explanation": "The REVOKE statement removes previously granted privileges from database users or roles."
+    },
+    {
+      "id": 53,
+      "question": "What is database partitioning?",
+      "options": {
+        "A": "Dividing a large table into smaller, more manageable pieces",
+        "B": "The process of encrypting database files",
+        "C": "A type of database backup",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Partitioning divides large tables into smaller physical pieces while maintaining logical unity, improving performance and manageability."
+    },
+    {
+      "id": 54,
+      "question": "Which of the following is NOT a valid type of database index?",
+      "options": {
+        "A": "B-tree",
+        "B": "Hash",
+        "C": "Bitmap",
+        "D": "Linear"
+      },
+      "answer": "D",
+      "explanation": "Common index types include B-tree (balanced tree), Hash, Bitmap, Clustered, and Non-clustered. 'Linear' is not a standard index type."
+    },
+    {
+      "id": 55,
+      "question": "What is database virtualization?",
+      "options": {
+        "A": "Creating multiple logical databases from a single physical database",
+        "B": "Displaying database contents in 3D",
+        "C": "A type of database backup",
+        "D": "A database security technique"
+      },
+      "answer": "A",
+      "explanation": "Virtualization abstracts the physical database infrastructure, allowing multiple logical databases to share physical resources."
+    },
+    {
+      "id": 56,
+      "question": "Which SQL command is used to change the name of a table?",
+      "options": {
+        "A": "ALTER TABLE...RENAME",
+        "B": "CHANGE TABLE",
+        "C": "MODIFY TABLE",
+        "D": "UPDATE TABLE"
+      },
+      "answer": "A",
+      "explanation": "The exact syntax varies by DBMS, but generally ALTER TABLE with RENAME or sp_rename (SQL Server) is used to rename tables."
+    },
+    {
+      "id": 57,
+      "question": "What is database abstraction?",
+      "options": {
+        "A": "Hiding complex implementation details from users",
+        "B": "Creating summary reports from database contents",
+        "C": "A type of database backup",
+        "D": "A database security technique"
+      },
+      "answer": "A",
+      "explanation": "Abstraction hides complex database implementation details, presenting users with simplified views of data."
+    },
+    {
+      "id": 58,
+      "question": "Which of the following is NOT a valid SQL wildcard character?",
+      "options": {
+        "A": "%",
+        "B": "_",
+        "C": "*",
+        "D": "#"
+      },
+      "answer": "D",
+      "explanation": "SQL wildcards are % (any string), _ (single character), and sometimes * (all columns in SELECT). '#' is not a standard wildcard."
+    },
+    {
+      "id": 59,
+      "question": "What is database federation?",
+      "options": {
+        "A": "Combining data from multiple databases into a unified view",
+        "B": "A type of database backup",
+        "C": "The process of encrypting database files",
+        "D": "A database security technique"
+      },
+      "answer": "A",
+      "explanation": "Federation integrates data from multiple autonomous databases into a single virtual database."
+    },
+    {
+      "id": 60,
+      "question": "Which SQL command is used to create a new user in the database?",
+      "options": {
+        "A": "ADD USER",
+        "B": "CREATE USER",
+        "C": "NEW USER",
+        "D": "MAKE USER"
+      },
+      "answer": "B",
+      "explanation": "The CREATE USER statement is used to create a new database user account."
+    },
+    {
+      "id": 61,
+      "question": "What is database encryption?",
+      "options": {
+        "A": "Converting data into a coded form to prevent unauthorized access",
+        "B": "Compressing database files to save space",
+        "C": "A type of database backup",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Encryption transforms data into an unreadable form using algorithms, protecting sensitive information from unauthorized access."
+    },
+    {
+      "id": 62,
+      "question": "Which of the following is NOT a valid type of database join?",
+      "options": {
+        "A": "Equi-join",
+        "B": "Natural join",
+        "C": "Self-join",
+        "D": "Virtual join"
+      },
+      "answer": "D",
+      "explanation": "Valid join types include inner, outer (left/right/full), cross, self, equi, natural, and theta joins. 'Virtual join' is not a standard term."
+    },
+    {
+      "id": 63,
+      "question": "What is database archiving?",
+      "options": {
+        "A": "Moving older, less frequently accessed data to separate storage",
+        "B": "The process of encrypting database files",
+        "C": "A type of database backup",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Archiving identifies and moves inactive data to separate storage, improving performance of the operational database."
+    },
+    {
+      "id": 64,
+      "question": "Which SQL command is used to change a user's password?",
+      "options": {
+        "A": "UPDATE PASSWORD",
+        "B": "ALTER USER",
+        "C": "SET PASSWORD",
+        "D": "MODIFY USER"
+      },
+      "answer": "B",
+      "explanation": "Syntax varies by DBMS, but generally ALTER USER or SET PASSWORD is used to change passwords."
+    },
+    {
+      "id": 65,
+      "question": "What is database compression?",
+      "options": {
+        "A": "Reducing the physical storage space required for data",
+        "B": "The process of encrypting database files",
+        "C": "A type of database backup",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Compression reduces storage requirements by eliminating redundancy in data representation, often improving I/O performance."
+    },
+    {
+      "id": 66,
+      "question": "Which of the following is NOT a valid SQL set operator?",
+      "options": {
+        "A": "UNION",
+        "B": "INTERSECT",
+        "C": "MINUS",
+        "D": "COMBINE"
+      },
+      "answer": "D",
+      "explanation": "SQL set operators include UNION, INTERSECT, and MINUS (or EXCEPT in some DBMSs). 'COMBINE' is not a standard operator."
+    },
+    {
+      "id": 67,
+      "question": "What is database pooling?",
+      "options": {
+        "A": "Sharing a cache of database connections among multiple users",
+        "B": "Combining multiple databases into one",
+        "C": "A type of database backup",
+        "D": "A database security technique"
+      },
+      "answer": "A",
+      "explanation": "Connection pooling maintains a cache of database connections that can be reused, reducing overhead of establishing new connections."
+    },
+    {
+      "id": 68,
+      "question": "Which SQL command is used to create an index on a table?",
+      "options": {
+        "A": "ADD INDEX",
+        "B": "CREATE INDEX",
+        "C": "MAKE INDEX",
+        "D": "NEW INDEX"
+      },
+      "answer": "B",
+      "explanation": "The CREATE INDEX statement is used to create indexes on tables to improve query performance."
+    },
+    {
+      "id": 69,
+      "question": "What is database synchronization?",
+      "options": {
+        "A": "Ensuring two or more databases contain the same data",
+        "B": "The process of encrypting database files",
+        "C": "A type of database backup",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Synchronization maintains consistency between databases, ensuring they contain identical data."
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is NOT a valid type of database backup?",
+      "options": {
+        "A": "Cold backup",
+        "B": "Hot backup",
+        "C": "Warm backup",
+        "D": "Boiling backup"
+      },
+      "answer": "D",
+      "explanation": "Valid backup types include cold (database offline), hot (database online), and warm (partial availability). 'Boiling backup' is not a real term."
+    },
+    {
+      "id": 71,
+      "question": "What is database migration?",
+      "options": {
+        "A": "Moving data from one database system to another",
+        "B": "The process of encrypting database files",
+        "C": "A type of database backup",
+        "D": "The process of normalizing a database"
+      },
+      "answer": "A",
+      "explanation": "Migration involves transferring data and schema from one database system to another, often during upgrades or platform changes."
+    },
+    {
+      "id": 72,
+      "question": "Which SQL command is used to create a new table in a database?",
+      "options": {
+        "A": "ADD TABLE",
+        "B": "CREATE TABLE",
+        "C": "NEW TABLE", 
+        "D": "MAKE TABLE"
+      },
+      "answer": "B",
+      "explanation": "The CREATE TABLE statement is used to define a new table and its structure in the database."
+    },
+    {
+      "id": 73,       
+      "question": "What is a database foreign data wrapper?",
+      "options": {
+        "A": "A tool for creating foreign keys",    
+        "B": "A mechanism to access data from external sources as if it were part of the database",
+        "C": "A type of database backup",
+        "D": "A database security feature"
+      },
+      "answer": "B",  
+      "explanation": "A foreign data wrapper allows a database to access and query data from external sources (like other databases or file systems) as if it were part of the local database."
+    },
+    {
+      "id": 74,
+      "question": "What is a database materialized view?",
+      "options": {  
+        "A": "A view that is stored physically and can be refreshed periodically",
+        "B": "A virtual table that does not store data",
+        "C": "A type of database backup",
+        "D": "A database security feature"
+      },
+      "answer": "A",
+      "explanation": "A materialized view is a database object that contains the results of a query and is stored physically, allowing for faster access. It can be refreshed periodically to update its  data."
+    },  
+    {
+      "id": 75,
+      "question": "What is a database schema migration?",
+      "options": {
+        "A": "The process of changing the structure of a database schema",
+        "B": "Moving data from one database to another",
+        "C": "Creating a backup of the database schema",
+        "D": "Encrypting the database schema"
+      },
+      "answer": "A",
+      "explanation": "Schema migration involves modifying the structure of a database schema, such as adding or removing tables or columns, often as part of application updates."
+    }
+  ] 
+
+  

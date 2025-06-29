@@ -1,0 +1,950 @@
+[
+    {
+      "id": 1,
+      "question": "What is the basic unit of information in computer systems?",
+      "options": {
+        "A": "Byte",
+        "B": "Word",
+        "C": "Bit",
+        "D": "Nibble"
+      },
+      "answer": "C",
+      "explanation": "A bit (binary digit) is the smallest and most basic unit of information in computing, representing either 0 or 1."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a basic component of a computer system?",
+      "options": {
+        "A": "CPU",
+        "B": "Memory",
+        "C": "I/O devices",
+        "D": "Internet connection"
+      },
+      "answer": "D",
+      "explanation": "While internet connectivity is common, it's not a fundamental component required for a basic computer system to function."
+    },
+    {
+      "id": 3,
+      "question": "What does ALU stand for in computer architecture?",
+      "options": {
+        "A": "Arithmetic Logic Unit",
+        "B": "Algorithmic Loading Unit",
+        "C": "Application Logic Unit",
+        "D": "Address Location Unit"
+      },
+      "answer": "A",
+      "explanation": "The ALU (Arithmetic Logic Unit) performs arithmetic and logical operations in the CPU."
+    },
+    {
+      "id": 4,
+      "question": "Which register holds the memory address of the next instruction to be executed?",
+      "options": {
+        "A": "Accumulator",
+        "B": "Program Counter",
+        "C": "Instruction Register",
+        "D": "Memory Address Register"
+      },
+      "answer": "B",
+      "explanation": "The Program Counter (PC) holds the address of the next instruction to be fetched from memory."
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the control unit in a CPU?",
+      "options": {
+        "A": "Perform arithmetic calculations",
+        "B": "Store data temporarily",
+        "C": "Coordinate operations of other components",
+        "D": "Connect to peripheral devices"
+      },
+      "answer": "C",
+      "explanation": "The control unit directs the operation of the processor by controlling the flow of data between components."
+    },
+    {
+      "id": 6,
+      "question": "Which of these is a volatile memory?",
+      "options": {
+        "A": "ROM",
+        "B": "Flash memory",
+        "C": "RAM",
+        "D": "Hard disk"
+      },
+      "answer": "C",
+      "explanation": "RAM (Random Access Memory) is volatile memory that loses its data when power is turned off."
+    },
+    {
+      "id": 7,
+      "question": "What does CPU stand for?",
+      "options": {
+        "A": "Central Processing Unit",
+        "B": "Computer Processing Unit",
+        "C": "Control Processing Unit",
+        "D": "Core Processing Unit"
+      },
+      "answer": "A",
+      "explanation": "CPU stands for Central Processing Unit, the primary component that executes instructions."
+    },
+    {
+      "id": 8,
+      "question": "Which bus carries memory addresses from the processor to memory?",
+      "options": {
+        "A": "Data bus",
+        "B": "Address bus",
+        "C": "Control bus",
+        "D": "System bus"
+      },
+      "answer": "B",
+      "explanation": "The address bus carries memory addresses from the processor to memory and I/O devices."
+    },
+    {
+      "id": 9,
+      "question": "What is the smallest amount of memory that can be addressed?",
+      "options": {
+        "A": "Bit",
+        "B": "Byte",
+        "C": "Word",
+        "D": "Nibble"
+      },
+      "answer": "B",
+      "explanation": "Memory is typically byte-addressable, meaning each byte has its own unique address."
+    },
+    {
+      "id": 10,
+      "question": "Which of these is an example of a secondary storage device?",
+      "options": {
+        "A": "RAM",
+        "B": "Cache",
+        "C": "Hard disk",
+        "D": "Registers"
+      },
+      "answer": "C",
+      "explanation": "Hard disks are non-volatile secondary storage devices, unlike RAM, cache, and registers which are primary storage."
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of cache memory?",
+      "options": {
+        "A": "Store BIOS settings",
+        "B": "Provide fast access to frequently used data",
+        "C": "Back up important files",
+        "D": "Increase total memory capacity"
+      },
+      "answer": "B",
+      "explanation": "Cache memory provides fast access to frequently used data to reduce the average time to access memory."
+    },
+    {
+      "id": 12,
+      "question": "Which of these is NOT a type of computer architecture?",
+      "options": {
+        "A": "Von Neumann",
+        "B": "Harvard",
+        "C": "Modified Harvard",
+        "D": "Turing"
+      },
+      "answer": "D",
+      "explanation": "While Alan Turing was a computer science pioneer, 'Turing' is not a computer architecture type."
+    },
+    {
+      "id": 13,
+      "question": "What is the clock speed of a processor measured in?",
+      "options": {
+        "A": "Bytes per second",
+        "B": "Hertz",
+        "C": "Bits per second",
+        "D": "Volts"
+      },
+      "answer": "B",
+      "explanation": "Processor clock speed is measured in Hertz (Hz), representing cycles per second."
+    },
+    {
+      "id": 14,
+      "question": "Which component stores the currently executing instruction?",
+      "options": {
+        "A": "Program Counter",
+        "B": "Instruction Register",
+        "C": "Memory Buffer Register",
+        "D": "Accumulator"
+      },
+      "answer": "B",
+      "explanation": "The Instruction Register (IR) holds the instruction currently being executed."
+    },
+    {
+      "id": 15,
+      "question": "What is pipelining in processor design?",
+      "options": {
+        "A": "A technique to increase clock speed",
+        "B": "A method to overlap instruction execution",
+        "C": "A way to connect multiple processors",
+        "D": "A memory organization technique"
+      },
+      "answer": "B",
+      "explanation": "Pipelining overlaps the execution of multiple instructions to improve throughput."
+    },
+    {
+      "id": 16,
+      "question": "Which of these is a characteristic of RISC architecture?",
+      "options": {
+        "A": "Complex instructions",
+        "B": "Variable-length instructions",
+        "C": "Large instruction sets",
+        "D": "Load-store architecture"
+      },
+      "answer": "D",
+      "explanation": "RISC (Reduced Instruction Set Computer) typically uses a load-store architecture where memory is accessed only by specific instructions."
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of interrupts in a computer system?",
+      "options": {
+        "A": "To stop the processor",
+        "B": "To handle asynchronous events",
+        "C": "To increase clock speed",
+        "D": "To reduce memory usage"
+      },
+      "answer": "B",
+      "explanation": "Interrupts allow the processor to respond to asynchronous events from I/O devices or other sources."
+    },
+    {
+      "id": 18,
+      "question": "Which of these is NOT a CPU register?",
+      "options": {
+        "A": "Accumulator",
+        "B": "Stack Pointer",
+        "C": "Instruction Cache",
+        "D": "Status Register"
+      },
+      "answer": "C",
+      "explanation": "Instruction cache is a type of memory, not a CPU register."
+    },
+    {
+      "id": 19,
+      "question": "What does DMA stand for?",
+      "options": {
+        "A": "Direct Memory Access",
+        "B": "Dynamic Memory Allocation",
+        "C": "Data Management Algorithm",
+        "D": "Digital Memory Architecture"
+      },
+      "answer": "A",
+      "explanation": "DMA (Direct Memory Access) allows devices to access memory without CPU intervention."
+    },
+    {
+      "id": 20,
+      "question": "Which number system is most commonly used in computer architecture?",
+      "options": {
+        "A": "Decimal",
+        "B": "Binary",
+        "C": "Hexadecimal",
+        "D": "Octal"
+      },
+      "answer": "B",
+      "explanation": "Binary (base-2) is fundamental to computer architecture as it represents the on/off states of transistors."
+    },
+    {
+      "id": 21,
+      "question": "What is the purpose of the memory hierarchy?",
+      "options": {
+        "A": "To organize memory by size",
+        "B": "To balance speed, size, and cost",
+        "C": "To separate data and instructions",
+        "D": "To increase memory capacity"
+      },
+      "answer": "B",
+      "explanation": "Memory hierarchy balances fast access (cache), capacity (RAM), and permanence (storage) at different cost points."
+    },
+    {
+      "id": 22,
+      "question": "Which of these is NOT a common addressing mode?",
+      "options": {
+        "A": "Immediate",
+        "B": "Direct",
+        "C": "Indirect",
+        "D": "Parallel"
+      },
+      "answer": "D",
+      "explanation": "Parallel is not an addressing mode. Common modes include immediate, direct, indirect, indexed, and relative."
+    },
+    {
+      "id": 23,
+      "question": "What is the function of the system bus?",
+      "options": {
+        "A": "Connect CPU to peripherals",
+        "B": "Provide communication between major components",
+        "C": "Increase processor speed",
+        "D": "Store temporary data"
+      },
+      "answer": "B",
+      "explanation": "The system bus provides communication between the CPU, memory, and other major components."
+    },
+    {
+      "id": 24,
+      "question": "Which of these is a characteristic of CISC architecture?",
+      "options": {
+        "A": "Simple instructions",
+        "B": "Fixed-length instructions",
+        "C": "Complex instructions",
+        "D": "Few registers"
+      },
+      "answer": "C",
+      "explanation": "CISC (Complex Instruction Set Computer) architectures have complex, multi-cycle instructions."
+    },
+    {
+      "id": 25,
+      "question": "What is the purpose of virtual memory?",
+      "options": {
+        "A": "Increase physical memory size",
+        "B": "Make disk storage appear as memory",
+        "C": "Speed up cache access",
+        "D": "Replace RAM completely"
+      },
+      "answer": "B",
+      "explanation": "Virtual memory uses disk space to extend the apparent size of physical memory."
+    },
+    {
+      "id": 26,
+      "question": "Which component performs floating-point arithmetic?",
+      "options": {
+        "A": "ALU",
+        "B": "FPU",
+        "C": "Control Unit",
+        "D": "Cache"
+      },
+      "answer": "B",
+      "explanation": "The FPU (Floating-Point Unit) handles floating-point arithmetic operations."
+    },
+    {
+      "id": 27,
+      "question": "What is a register file?",
+      "options": {
+        "A": "A collection of CPU registers",
+        "B": "A memory management technique",
+        "C": "A type of cache memory",
+        "D": "A disk storage format"
+      },
+      "answer": "A",
+      "explanation": "A register file is a collection of registers in the CPU that can be read or written by machine instructions."
+    },
+    {
+      "id": 28,
+      "question": "Which of these is NOT a stage in the basic instruction cycle?",
+      "options": {
+        "A": "Fetch",
+        "B": "Decode",
+        "C": "Execute",
+        "D": "Cache"
+      },
+      "answer": "D",
+      "explanation": "The basic instruction cycle consists of fetch, decode, and execute stages."
+    },
+    {
+      "id": 29,
+      "question": "What is superscalar architecture?",
+      "options": {
+        "A": "Multiple ALUs in one processor",
+        "B": "Ability to execute multiple instructions simultaneously",
+        "C": "Multiple processors on one chip",
+        "D": "Very wide data bus"
+      },
+      "answer": "B",
+      "explanation": "Superscalar processors can execute multiple instructions in parallel during a single clock cycle."
+    },
+    {
+      "id": 30,
+      "question": "Which of these is a read-only memory?",
+      "options": {
+        "A": "SRAM",
+        "B": "DRAM",
+        "C": "ROM",
+        "D": "Cache"
+      },
+      "answer": "C",
+      "explanation": "ROM (Read-Only Memory) is non-volatile memory that cannot be easily rewritten."
+    },
+    {
+      "id": 31,
+      "question": "What is the purpose of the stack pointer?",
+      "options": {
+        "A": "Point to the next instruction",
+        "B": "Track the top of the stack",
+        "C": "Hold arithmetic results",
+        "D": "Store memory addresses"
+      },
+      "answer": "B",
+      "explanation": "The stack pointer register keeps track of the top of the stack in memory."
+    },
+    {
+      "id": 32,
+      "question": "Which of these is NOT a common bus arbitration method?",
+      "options": {
+        "A": "Daisy chain",
+        "B": "Polling",
+        "C": "Random access",
+        "D": "Independent request"
+      },
+      "answer": "C",
+      "explanation": "Common bus arbitration methods include daisy chain, polling, and independent request, but not random access."
+    },
+    {
+      "id": 33,
+      "question": "What is the principle of locality?",
+      "options": {
+        "A": "Data is stored near where it's used",
+        "B": "Programs tend to reuse data and instructions",
+        "C": "Memory is organized hierarchically",
+        "D": "Instructions are executed in order"
+      },
+      "answer": "B",
+      "explanation": "The principle of locality states that programs tend to reuse data and instructions they've used recently."
+    },
+    {
+      "id": 34,
+      "question": "Which of these is a volatile memory technology?",
+      "options": {
+        "A": "EEPROM",
+        "B": "Flash",
+        "C": "DRAM",
+        "D": "PROM"
+      },
+      "answer": "C",
+      "explanation": "DRAM (Dynamic RAM) is volatile, while the others are non-volatile memory technologies."
+    },
+    {
+      "id": 35,
+      "question": "What is the purpose of an assembler?",
+      "options": {
+        "A": "Convert high-level code to machine code",
+        "B": "Convert assembly code to machine code",
+        "C": "Execute programs",
+        "D": "Optimize code"
+      },
+      "answer": "B",
+      "explanation": "An assembler translates assembly language programs into machine code."
+    },
+    {
+      "id": 36,
+      "question": "Which of these is NOT a common CPU performance metric?",
+      "options": {
+        "A": "Clock speed",
+        "B": "MIPS",
+        "C": "FLOPS",
+        "D": "RGB"
+      },
+      "answer": "D",
+      "explanation": "RGB refers to color representation, not CPU performance. Common metrics include clock speed, MIPS (Millions of Instructions Per Second), and FLOPS (Floating Point Operations Per Second)."
+    },
+    {
+      "id": 37,
+      "question": "What is a multicore processor?",
+      "options": {
+        "A": "A processor with multiple ALUs",
+        "B": "A processor with multiple CPUs on one chip",
+        "C": "A processor with large cache",
+        "D": "A processor that executes multiple instructions per cycle"
+      },
+      "answer": "B",
+      "explanation": "A multicore processor contains multiple independent CPUs (cores) on a single integrated circuit."
+    },
+    {
+      "id": 38,
+      "question": "Which of these is NOT a common cache mapping technique?",
+      "options": {
+        "A": "Direct mapping",
+        "B": "Associative mapping",
+        "C": "Set-associative mapping",
+        "D": "Parallel mapping"
+      },
+      "answer": "D",
+      "explanation": "Common cache mapping techniques include direct, associative, and set-associative, but not parallel mapping."
+    },
+    {
+      "id": 39,
+      "question": "What is the purpose of the memory management unit (MMU)?",
+      "options": {
+        "A": "Handle memory allocation",
+        "B": "Translate virtual to physical addresses",
+        "C": "Manage cache memory",
+        "D": "Control memory bus"
+      },
+      "answer": "B",
+      "explanation": "The MMU performs virtual-to-physical address translation for memory management."
+    },
+    {
+      "id": 40,
+      "question": "Which of these is a characteristic of SIMD architecture?",
+      "options": {
+        "A": "Multiple different instructions on multiple data",
+        "B": "Single instruction on multiple data",
+        "C": "Multiple instructions on single data",
+        "D": "Single instruction on single data"
+      },
+      "answer": "B",
+      "explanation": "SIMD (Single Instruction Multiple Data) executes one instruction on multiple data elements simultaneously."
+    },
+    {
+      "id": 41,
+      "question": "What is the purpose of branch prediction?",
+      "explanation": "Branch prediction attempts to guess the outcome of conditional branches to minimize pipeline stalls.",
+      "options": {
+        "A": "Reduce memory access time",
+        "B": "Minimize pipeline stalls",
+        "C": "Increase cache size",
+        "D": "Improve bus bandwidth"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "Which of these is NOT a common parallel processing architecture?",
+      "options": {
+        "A": "SISD",
+        "B": "SIMD",
+        "C": "MIMD",
+        "D": "SIMO"
+      },
+      "answer": "D",
+      "explanation": "Common parallel architectures are SISD, SIMD, MISD, and MIMD. SIMO is not a standard classification."
+    },
+    {
+      "id": 43,
+      "question": "What is the purpose of the TLB (Translation Lookaside Buffer)?",
+      "options": {
+        "A": "Cache memory addresses",
+        "B": "Cache virtual-to-physical address translations",
+        "C": "Store frequently used instructions",
+        "D": "Manage I/O operations"
+      },
+      "answer": "B",
+      "explanation": "The TLB caches recent virtual-to-physical address translations to speed up memory access."
+    },
+    {
+      "id": 44,
+      "question": "Which of these is a characteristic of EPIC architecture?",
+      "options": {
+        "A": "Complex instructions",
+        "B": "Compiler-managed parallelism",
+        "C": "Small register sets",
+        "D": "Variable-length instructions"
+      },
+      "answer": "B",
+      "explanation": "EPIC (Explicitly Parallel Instruction Computing) relies on the compiler to schedule parallel operations."
+    },
+    {
+      "id": 45,
+      "question": "What is the purpose of speculative execution?",
+      "options": {
+        "A": "Execute instructions before knowing if they're needed",
+        "B": "Verify program correctness",
+        "C": "Detect security vulnerabilities",
+        "D": "Optimize memory access"
+      },
+      "answer": "A",
+      "explanation": "Speculative execution executes instructions before knowing if they'll be needed, improving performance."
+    },
+    {
+      "id": 46,
+      "question": "Which of these is NOT a common memory hierarchy level?",
+      "options": {
+        "A": "Registers",
+        "B": "Cache",
+        "C": "Main memory",
+        "D": "Optical drive"
+      },
+      "answer": "D",
+      "explanation": "The standard memory hierarchy includes registers, cache, main memory, and disk storage. Optical drives are not typically considered part of this hierarchy."
+    },
+    {
+      "id": 47,
+      "question": "What is the purpose of the memory data register (MDR)?",
+      "options": {
+        "A": "Hold memory addresses",
+        "B": "Hold data being transferred to/from memory",
+        "C": "Store program instructions",
+        "D": "Manage cache operations"
+      },
+      "answer": "B",
+      "explanation": "The MDR holds data being read from or written to memory."
+    },
+    {
+      "id": 48,
+      "question": "Which of these is a characteristic of VLIW architecture?",
+      "options": {
+        "A": "Hardware-managed parallelism",
+        "B": "Very long instruction words",
+        "C": "Small instruction set",
+        "D": "Stack-based operations"
+      },
+      "answer": "B",
+      "explanation": "VLIW (Very Long Instruction Word) processors use instructions that contain multiple operations to be executed in parallel."
+    },
+    {
+      "id": 49,
+      "question": "What is the purpose of cache coherence protocols?",
+      "options": {
+        "A": "Ensure consistency of cached data",
+        "B": "Increase cache size",
+        "C": "Manage virtual memory",
+        "D": "Control bus arbitration"
+      },
+      "answer": "A",
+      "explanation": "Cache coherence protocols maintain consistency between multiple caches in a multiprocessor system."
+    },
+    {
+      "id": 50,
+      "question": "Which of these is NOT a common pipeline hazard?",
+      "options": {
+        "A": "Structural",
+        "B": "Data",
+        "C": "Control",
+        "D": "Arithmetic"
+      },
+      "answer": "D",
+      "explanation": "Common pipeline hazards are structural, data, and control hazards. Arithmetic is not a type of pipeline hazard."
+    },
+    {
+      "id": 51,
+      "question": "What is the purpose of the memory address register (MAR)?",
+      "options": {
+        "A": "Hold data being transferred",
+        "B": "Hold addresses for memory access",
+        "C": "Store program instructions",
+        "D": "Manage I/O operations"
+      },
+      "answer": "B",
+      "explanation": "The MAR holds the memory address for data being read from or written to memory."
+    },
+    {
+      "id": 52,
+      "question": "Which of these is a characteristic of vector processors?",
+      "options": {
+        "A": "Execute one instruction at a time",
+        "B": "Operate on arrays of data",
+        "C": "Use very small instruction sets",
+        "D": "Lack floating-point capability"
+      },
+      "answer": "B",
+      "explanation": "Vector processors perform operations on entire arrays (vectors) of data simultaneously."
+    },
+    {
+      "id": 53,
+      "question": "What is the purpose of out-of-order execution?",
+      "options": {
+        "A": "Execute instructions as their operands become available",
+        "B": "Process I/O operations first",
+        "C": "Prioritize memory access",
+        "D": "Execute programs backwards"
+      },
+      "answer": "A",
+      "explanation": "Out-of-order execution allows processors to execute instructions as their operands become available rather than strictly in program order."
+    },
+    {
+      "id": 54,
+      "question": "Which of these is NOT a common cache write policy?",
+      "options": {
+        "A": "Write-through",
+        "B": "Write-back",
+        "C": "Write-around",
+        "D": "Write-forward"
+      },
+      "answer": "D",
+      "explanation": "Common cache write policies are write-through and write-back (with write-around as a variant). Write-forward is not a standard term."
+    },
+    {
+      "id": 55,
+      "question": "What is the purpose of the status register (flag register)?",
+      "options": {
+        "A": "Store memory addresses",
+        "B": "Hold condition codes and control bits",
+        "C": "Store program instructions",
+        "D": "Manage cache operations"
+      },
+      "answer": "B",
+      "explanation": "The status register contains condition codes (flags) and control bits that reflect the processor state."
+    },
+    {
+      "id": 56,
+      "question": "Which of these is a characteristic of multithreaded processors?",
+      "options": {
+        "A": "Execute multiple instruction streams concurrently",
+        "B": "Have very large caches",
+        "C": "Use simplified instruction sets",
+        "D": "Lack pipelining"
+      },
+      "answer": "A",
+      "explanation": "Multithreaded processors can execute multiple threads (instruction streams) concurrently."
+    },
+    {
+      "id": 57,
+      "question": "What is the purpose of memory interleaving?",
+      "options": {
+        "A": "Increase memory capacity",
+        "B": "Reduce memory access conflicts",
+        "C": "Simplify memory addressing",
+        "D": "Decrease memory cost"
+      },
+      "answer": "B",
+      "explanation": "Memory interleaving divides memory into banks that can be accessed in parallel to reduce access conflicts."
+    },
+    {
+      "id": 58,
+      "question": "Which of these is NOT a common I/O transfer mode?",
+      "options": {
+        "A": "Programmed I/O",
+        "B": "Interrupt-driven I/O",
+        "C": "DMA",
+        "D": "CPU-driven I/O"
+      },
+      "answer": "D",
+      "explanation": "Common I/O transfer modes are programmed I/O, interrupt-driven I/O, and DMA. CPU-driven I/O is not a standard term."
+    },
+    {
+      "id": 59,
+      "question": "What is the purpose of register renaming?",
+      "options": {
+        "A": "Increase number of available registers",
+        "B": "Prevent false data dependencies",
+        "C": "Simplify instruction decoding",
+        "D": "Reduce memory access"
+      },
+      "answer": "B",
+      "explanation": "Register renaming eliminates false data dependencies (WAR and WAW hazards) in out-of-order execution."
+    },
+    {
+      "id": 60,
+      "question": "Which of these is a characteristic of NUMA architecture?",
+      "options": {
+        "A": "Uniform memory access times",
+        "B": "Non-uniform memory access times",
+        "C": "No memory hierarchy",
+        "D": "Single memory controller"
+      },
+      "answer": "B",
+      "explanation": "NUMA (Non-Uniform Memory Access) systems have varying memory access times depending on memory location."
+    },
+    {
+      "id": 61,
+      "question": "What is the purpose of the base register in addressing?",
+      "options": {
+        "A": "Hold absolute memory addresses",
+        "B": "Provide a reference point for address calculation",
+        "C": "Store program instructions",
+        "D": "Manage cache operations"
+      },
+      "answer": "B",
+      "explanation": "The base register provides a starting address for relative addressing modes."
+    },
+    {
+      "id": 62,
+      "question": "Which of these is NOT a common processor architecture type?",
+      "options": {
+        "A": "Stack-based",
+        "B": "Accumulator-based",
+        "C": "Register-based",
+        "D": "Queue-based"
+      },
+      "answer": "D",
+      "explanation": "Common processor architectures include stack-based, accumulator-based, and register-based. Queue-based is not a standard classification."
+    },
+    {
+      "id": 63,
+      "question": "What is the purpose of the index register?",
+      "options": {
+        "A": "Hold memory addresses",
+        "B": "Provide offset for address calculation",
+        "C": "Store program instructions",
+        "D": "Manage I/O operations"
+      },
+      "answer": "B",
+      "explanation": "Index registers provide offsets for indexed addressing modes."
+    },
+    {
+      "id": 64,
+      "question": "Which of these is a characteristic of MIMD architecture?",
+      "options": {
+        "A": "Single instruction on multiple data",
+        "B": "Multiple instructions on multiple data",
+        "C": "Single instruction on single data",
+        "D": "Multiple instructions on single data"
+      },
+      "answer": "B",
+      "explanation": "MIMD (Multiple Instruction Multiple Data) architectures can execute different programs on different processors."
+    },
+    {
+      "id": 65,
+      "question": "What is the purpose of the program status word (PSW)?",
+      "options": {
+        "A": "Store program instructions",
+        "B": "Contain processor state information",
+        "C": "Hold memory addresses",
+        "D": "Manage cache operations"
+      },
+      "answer": "B",
+      "explanation": "The PSW contains processor state information including condition codes and interrupt masks."
+    },
+    {
+      "id": 66,
+      "question": "Which of these is NOT a common memory organization scheme?",
+      "options": {
+        "A": "Word-addressable",
+        "B": "Byte-addressable",
+        "C": "Bit-addressable",
+        "D": "Block-addressable"
+      },
+      "answer": "D",
+      "explanation": "Common memory organization schemes are word-addressable, byte-addressable, and sometimes bit-addressable. Block-addressable is not standard."
+    },
+    {
+      "id": 67,
+      "question": "What is the purpose of the effective address calculation?",
+      "options": {
+        "A": "Determine actual memory location",
+        "B": "Compute arithmetic results",
+        "C": "Manage cache operations",
+        "D": "Control pipeline flow"
+      },
+      "answer": "A",
+      "explanation": "Effective address calculation determines the actual memory location from the addressing mode and operands."
+    },
+    {
+      "id": 68,
+      "question": "Which of these is a characteristic of SIMD architecture?",
+      "options": {
+        "A": "Multiple different instructions on multiple data",
+        "B": "Single instruction on multiple data",
+        "C": "Multiple instructions on single data",
+        "D": "Single instruction on single data"
+      },
+      "answer": "B",
+      "explanation": "SIMD (Single Instruction Multiple Data) executes one instruction on multiple data elements simultaneously."
+    },
+    {
+      "id": 69,
+      "question": "What is the purpose of the memory buffer register (MBR)?",
+      "options": {
+        "A": "Hold memory addresses",
+        "B": "Hold data being transferred to/from memory",
+        "C": "Store program instructions",
+        "D": "Manage I/O operations"
+      },
+      "answer": "B",
+      "explanation": "The MBR (also called MDR) holds data being read from or written to memory."
+    },
+    {
+      "id": 70,
+      "question": "Which of these is NOT a common parallel processing approach?",
+      "options": {
+        "A": "SISD",
+        "B": "SIMD",
+        "C": "MISD",
+        "D": "DISD"
+      },
+      "answer": "D",
+      "explanation": "Standard parallel processing classifications are SISD, SIMD, MISD, and MIMD. DISD is not a valid category."
+    },
+    {
+      "id": 71,
+      "question": "What is the purpose of the stack in computer architecture?",
+      "options": {
+        "A": "Store frequently accessed data",
+        "B": "Manage function calls and local variables",
+        "C": "Hold program instructions",
+        "D": "Manage cache operations"
+      },
+      "answer": "B",
+      "explanation": "The stack is used for managing function calls, returns, and local variables."
+    },
+    {
+      "id": 72,
+      "question": "Which of these is a characteristic of Harvard architecture?",
+      "options": {
+        "A": "Shared memory for data and instructions",
+        "B": "Separate memories for data and instructions",
+        "C": "No memory hierarchy",
+        "D": "Variable-length instructions"
+      },
+      "answer": "B",
+      "explanation": "Harvard architecture uses separate memory systems for instructions and data."
+    },
+    {
+      "id": 73,
+      "question": "What is the purpose of the condition code register?",
+      "options": {
+        "A": "Store memory addresses",
+        "B": "Hold arithmetic operation results",
+        "C": "Store status flags",
+        "D": "Manage cache operations"
+      },
+      "answer": "C",
+      "explanation": "The condition code register contains flags (like zero, carry, overflow) set by arithmetic operations."
+    },
+    {
+      "id": 74,
+      "question": "Which of these is NOT a common processor performance enhancement technique?",
+      "options": {
+        "A": "Pipelining",
+        "B": "Caching",
+        "C": "Branch prediction",
+        "D": "Memory defragmentation"
+      },
+      "answer": "D",
+      "explanation": "Memory defragmentation is an OS memory management concept, not a processor performance technique."
+    },
+    {
+      "id": 75,
+      "question": "What is the purpose of the instruction pointer?",
+      "options": {
+        "A": "Hold memory addresses",
+        "B": "Point to the next instruction",
+        "C": "Store arithmetic results",
+        "D": "Manage I/O operations"
+      },
+      "answer": "B",
+      "explanation": "The instruction pointer (program counter) holds the address of the next instruction to execute."
+    },
+    {
+      "id": 76,
+      "question": "Which of these is a characteristic of von Neumann architecture?",
+      "options": {
+        "A": "Separate memories for data and instructions",
+        "B": "Shared memory for data and instructions",
+        "C": "No memory hierarchy",
+        "D": "Variable-length instructions"
+      },
+      "answer": "B",
+      "explanation": "Von Neumann architecture uses a single memory for both data and instructions."
+    },
+    {
+      "id": 77,
+      "question": "What is the purpose of the accumulator register?",
+      "options": {
+        "A": "Store memory addresses",
+        "B": "Hold intermediate arithmetic results",
+        "C": "Store program instructions",
+        "D": "Manage cache operations"
+      },
+      "answer": "B",
+      "explanation": "The accumulator holds intermediate results of arithmetic and logic operations."
+    },
+    {
+      "id": 78,
+      "question": "Which of these is NOT a common memory technology?",
+      "options": {
+        "A": "SRAM",
+        "B": "DRAM",
+        "C": "FRAM",
+        "D": "ZRAM"
+      },
+      "answer": "D",
+      "explanation": "Common memory technologies include SRAM, DRAM, and FRAM. ZRAM is not a standard memory technology."
+    },
+    {
+      "id": 79,
+      "question": "What is the purpose of the memory controller?",
+      "options": {
+        "A": "Manage communication between CPU and memory",
+        "B": "Store frequently accessed data",
+        "C": "Execute program instructions",
+        "D": "Manage I/O operations"
+      },
+      "answer": "A",
+      "explanation": "The memory controller manages data flow between the CPU and RAM, ensuring efficient access and storage."  
+    }
+]

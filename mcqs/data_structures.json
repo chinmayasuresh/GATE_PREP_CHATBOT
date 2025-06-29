@@ -1,0 +1,1202 @@
+[{
+    "id": 1,
+    "question": "Which data structure uses LIFO order?",
+    "options": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Heap",
+      "D": "Graph"
+    },
+    "answer": "B",
+    "explanation": "Stack follows Last-In-First-Out (LIFO) order."
+  },  {
+    "id": 2,
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": {
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n log n)"
+    },
+    "answer": "B",
+    "explanation": "Binary search on a sorted array takes O(log n) time."
+  },
+    {
+      "id": 3,
+      "question": "Which data structure uses LIFO (Last-In-First-Out) principle?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Linked List",
+        "D": "Tree"
+      },
+      "answer": "B",
+      "explanation": "Stack operates on LIFO principle where the last element added is the first one to be removed."
+    },
+    {
+      "id": 4,
+      "question": "What is the worst-case time complexity of QuickSort?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n²)",
+        "D": "O(log n)"
+      },
+      "answer": "C",
+      "explanation": "When the pivot selection is poor (already sorted array), QuickSort degrades to O(n²)."
+    },
+    {
+      "id": 5,
+      "question": "Which algorithm is used to find the shortest path in an unweighted graph?",
+      "options": {
+        "A": "Dijkstra's",
+        "B": "Bellman-Ford",
+        "C": "Floyd-Warshall",
+        "D": "BFS"
+      },
+      "answer": "D",
+      "explanation": "Breadth-First Search (BFS) finds shortest paths in unweighted graphs by exploring all nodes at present depth before moving deeper."
+    },
+    {
+      "id": 6,
+      "question": "What is the space complexity of MergeSort?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n log n)"
+      },
+      "answer": "C",
+      "explanation": "MergeSort requires O(n) additional space for the temporary arrays during merging."
+    },
+    {
+      "id": 7,
+      "question": "Which of these is NOT a stable sorting algorithm?",
+      "options": {
+        "A": "MergeSort",
+        "B": "BubbleSort",
+        "C": "QuickSort",
+        "D": "InsertionSort"
+      },
+      "answer": "C",
+      "explanation": "QuickSort is not stable as it may change the relative order of equal elements during partitioning."
+    },
+    {
+      "id": 8,
+      "question": "What is the maximum number of edges in a directed graph with n vertices?",
+      "options": {
+        "A": "n-1",
+        "B": "n(n-1)/2",
+        "C": "n²",
+        "D": "n(n-1)"
+      },
+      "answer": "D",
+      "explanation": "In a directed graph, each vertex can connect to every other vertex (including itself), giving n(n-1) possible edges."
+    },
+    {
+      "id": 9,
+      "question": "Which data structure is most efficient for implementing a priority queue?",
+      "options": {
+        "A": "Array",
+        "B": "Linked List",
+        "C": "Heap",
+        "D": "Stack"
+      },
+      "answer": "C",
+      "explanation": "Heap provides O(log n) time for both insertion and extraction of the highest priority element."
+    },
+    {
+      "id": 10,
+      "question": "What is the time complexity to access an element in an array by index?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n log n)"
+      },
+      "answer": "A",
+      "explanation": "Arrays provide constant-time access to any element using its index."
+    },
+    {
+      "id": 11,
+      "question": "Which traversal gives nodes in non-decreasing order in a BST?",
+      "options": {
+        "A": "Pre-order",
+        "B": "In-order",
+        "C": "Post-order",
+        "D": "Level-order"
+      },
+      "answer": "B",
+      "explanation": "In-order traversal of a BST yields elements in sorted order."
+    },
+    {
+      "id": 12,
+      "question": "What is the height of a complete binary tree with n nodes?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n log n)"
+      },
+      "answer": "B",
+      "explanation": "A complete binary tree's height grows logarithmically with the number of nodes."
+    },
+    {
+      "id": 13,
+      "question": "Which algorithm always finds the shortest path in a weighted graph (with no negative cycles)?",
+      "options": {
+        "A": "BFS",
+        "B": "DFS",
+        "C": "Dijkstra's",
+        "D": "Prim's"
+      },
+      "answer": "C",
+      "explanation": "Dijkstra's algorithm finds shortest paths from a source to all other vertices in graphs with non-negative edge weights."
+    },
+    {
+      "id": 14,
+      "question": "What is the time complexity of inserting at the end of a dynamic array (amortized)?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n²)"
+      },
+      "answer": "A",
+      "explanation": "Amortized time for dynamic array insertion at end is O(1) despite occasional resizing operations."
+    },
+    {
+      "id": 15,
+      "question": "Which problem can be solved using dynamic programming?",
+      "options": {
+        "A": "Fibonacci numbers",
+        "B": "Merge two sorted arrays",
+        "C": "Reverse a linked list",
+        "D": "Binary search"
+      },
+      "answer": "A",
+      "explanation": "Fibonacci numbers can be efficiently computed using dynamic programming by storing previously computed values."
+    },
+    {
+      "id": 16,
+      "question": "What is the minimum number of comparisons needed to find the minimum and maximum of n elements?",
+      "options": {
+        "A": "n-1",
+        "B": "2n-2",
+        "C": "3n/2 - 2",
+        "D": "n²"
+      },
+      "answer": "C",
+      "explanation": "The optimal algorithm requires about 3n/2 comparisons by processing elements in pairs."
+    },
+    {
+      "id": 17,
+      "question": "Which data structure is used for BFS implementation?",
+      "options": {
+        "A": "Stack",
+        "B": "Queue",
+        "C": "Priority Queue",
+        "D": "Heap"
+      },
+      "answer": "B",
+      "explanation": "BFS uses a queue to explore all nodes at the current depth before moving to the next level."
+    },
+    {
+      "id": 18,
+      "question": "What is the time complexity of HeapSort?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n log n)",
+        "D": "O(n²)"
+      },
+      "answer": "C",
+      "explanation": "HeapSort has O(n log n) time complexity for both worst and average cases."
+    },
+    {
+      "id": 19,
+      "question": "Which of these is NOT a divide and conquer algorithm?",
+      "options": {
+        "A": "MergeSort",
+        "B": "QuickSort",
+        "C": "Binary Search",
+        "D": "InsertionSort"
+      },
+      "answer": "D",
+      "explanation": "InsertionSort is an incremental algorithm, not divide and conquer."
+    },
+    {
+      "id": 20,
+      "question": "What is the space complexity of recursive Fibonacci without memoization?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n²)",
+        "D": "O(2^n)"
+      },
+      "answer": "B",
+      "explanation": "The recursion stack can grow up to O(n) depth for the naive recursive implementation."
+    },
+    {
+      "id": 21,
+      "question": "Which hash collision resolution technique uses a secondary data structure?",
+      "options": {
+        "A": "Linear Probing",
+        "B": "Quadratic Probing",
+        "C": "Double Hashing",
+        "D": "Chaining"
+      },
+      "answer": "D",
+      "explanation": "Chaining resolves collisions by storing elements in a linked list or other structure at each bucket."
+    },
+    {
+      "id": 22,
+      "question": "What is the time complexity of searching in a balanced BST?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(n log n)"
+      },
+      "answer": "B",
+      "explanation": "Search in a balanced BST takes logarithmic time as it halves the search space at each step."
+    },
+    {
+      "id": 23,
+      "question": "Which algorithm is used to find strongly connected components in a graph?",
+      "options": {
+        "A": "Dijkstra's",
+        "B": "Kruskal's",
+        "C": "Kosaraju's",
+        "D": "Prim's"
+      },
+      "answer": "C",
+      "explanation": "Kosaraju's algorithm finds strongly connected components using two DFS traversals."
+    },
+    {
+      "id": 24,
+      "question": "What is the time complexity to build a heap from an unsorted array?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n log n)",
+        "D": "O(n²)"
+      },
+      "answer": "B",
+      "explanation": "Surprisingly, heap construction can be done in linear time using a bottom-up approach."
+    },
+    {
+      "id": 25,
+      "question": "Which of these sorting algorithms is in-place?",
+      "options": {
+        "A": "MergeSort",
+        "B": "QuickSort",
+        "C": "CountingSort",
+        "D": "RadixSort"
+      },
+      "answer": "B",
+      "explanation": "QuickSort is in-place as it uses constant extra space (excluding recursion stack)."
+    },
+    {
+      "id": 26,
+      "question": "What is the maximum height of an AVL tree with n nodes?",
+      "options": {
+        "A": "log₂ n",
+        "B": "1.44 log₂ n",
+        "C": "n/2",
+        "D": "n-1"
+      },
+      "answer": "B",
+      "explanation": "AVL trees maintain balance such that height is at most ~1.44 times the minimum possible height."
+    },
+    {
+      "id": 27,
+      "question": "Which algorithm finds the minimum spanning tree of a graph?",
+      "options": {
+        "A": "Dijkstra's",
+        "B": "Floyd-Warshall",
+        "C": "Kruskal's",
+        "D": "Bellman-Ford"
+      },
+      "answer": "C",
+      "explanation": "Kruskal's algorithm finds MST by sorting edges and adding them without forming cycles."
+    },
+    {
+      "id": 28,
+      "question": "What is the time complexity of matrix multiplication using the standard algorithm?",
+      "options": {
+        "A": "O(n²)",
+        "B": "O(n² log n)",
+        "C": "O(n³)",
+        "D": "O(n!)"
+      },
+      "answer": "C",
+      "explanation": "Standard matrix multiplication requires O(n³) operations for n×n matrices."
+    },
+    {
+      "id": 29,
+      "question": "Which data structure is most efficient for implementing an LRU cache?",
+      "options": {
+        "A": "Array",
+        "B": "Linked List",
+        "C": "Hash Map + Doubly Linked List",
+        "D": "Binary Search Tree"
+      },
+      "answer": "C",
+      "explanation": "Hash Map provides O(1) access while Doubly Linked List maintains order for LRU eviction."
+    },
+    {
+      "id": 30,
+      "question": "What is the time complexity of the Sieve of Eratosthenes for finding primes up to n?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log log n)",
+        "C": "O(n log n)",
+        "D": "O(n²)"
+      },
+      "answer": "B",
+      "explanation": "The Sieve of Eratosthenes has O(n log log n) time complexity due to its unique elimination pattern."
+    },
+    {
+      "id": 31,
+      "question": "Which of these is NOT a NP-complete problem?",
+      "options": {
+        "A": "Traveling Salesman",
+        "B": "Knapsack",
+        "C": "Graph Coloring",
+        "D": "Binary Search"
+      },
+      "answer": "D",
+      "explanation": "Binary Search is a P problem solvable in O(log n) time, not NP-complete."
+    },
+    {
+      "id": 32,
+      "question": "What is the time complexity of inserting n elements into an empty hash table?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n²)",
+        "D": "Depends on collision resolution"
+      },
+      "answer": "D",
+      "explanation": "Time depends on collision handling - O(1) per insert for chaining (average case), but could degrade."
+    },
+    {
+      "id": 33,
+      "question": "Which tree rotation is used to maintain balance in an AVL tree?",
+      "options": {
+        "A": "Left, Right, Left-Right, Right-Left",
+        "B": "Clockwise, Counter-clockwise",
+        "C": "In-order, Pre-order, Post-order",
+        "D": "BFS, DFS"
+      },
+      "answer": "A",
+      "explanation": "AVL trees use four rotation types to maintain balance after insertions/deletions."
+    },
+    {
+      "id": 34,
+      "question": "What is the space complexity of the recursive Tower of Hanoi solution?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n²)",
+        "D": "O(2^n)"
+      },
+      "answer": "B",
+      "explanation": "The recursion depth is n, so space complexity is O(n) for the call stack."
+    },
+    {
+      "id": 35,
+      "question": "Which algorithm uses a 'greedy' approach?",
+      "options": {
+        "A": "MergeSort",
+        "B": "QuickSort",
+        "C": "Dijkstra's",
+        "D": "Binary Search"
+      },
+      "answer": "C",
+      "explanation": "Dijkstra's algorithm is greedy as it always extends the shortest known path."
+    },
+    {
+      "id": 36,
+      "question": "What is the time complexity of the Floyd-Warshall algorithm?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n²)",
+        "C": "O(n³)",
+        "D": "O(n!)"
+      },
+      "answer": "C",
+      "explanation": "Floyd-Warshall finds all pairs shortest paths in O(V³) time for a graph with V vertices."
+    },
+    {
+      "id": 37,
+      "question": "Which data structure is used for implementing a recursive algorithm iteratively?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Heap",
+        "D": "Hash Table"
+      },
+      "answer": "B",
+      "explanation": "Stacks are used to simulate the call stack in recursive-to-iterative conversions."
+    },
+    {
+      "id": 38,
+      "question": "What is the time complexity to find all subsets of a set with n elements?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(2^n)",
+        "D": "O(n!)"
+      },
+      "answer": "C",
+      "explanation": "A set has 2^n subsets, so generating all requires exponential time."
+    },
+    {
+      "id": 39,
+      "question": "Which search algorithm requires the array to be sorted?",
+      "options": {
+        "A": "Linear Search",
+        "B": "Binary Search",
+        "C": "Jump Search",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "explanation": "Both Binary Search and Jump Search require the input array to be sorted."
+    },
+    {
+      "id": 40,
+      "question": "What is the time complexity of the KMP string matching algorithm?",
+      "options": {
+        "A": "O(m+n)",
+        "B": "O(mn)",
+        "C": "O(m log n)",
+        "D": "O(n²)"
+      },
+      "answer": "A",
+      "explanation": "Knuth-Morris-Pratt algorithm has linear time complexity where m is pattern length and n is text length."
+    },
+  
+
+    {
+      "id": 41,
+      "question": "Which of the following is true about Red-Black Trees?",
+      "options": {
+        "A": "They guarantee O(log n) search time",
+        "B": "Every node is either red or black",
+        "C": "The root is always black",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "Red-Black Trees maintain balance with color properties to ensure O(log n) operations."
+    },
+    {
+      "id": 42,
+      "question": "What is the main advantage of a B-tree over a BST?",
+      "options": {
+        "A": "Faster insertion",
+        "B": "Better cache performance",
+        "C": "Lower memory usage",
+        "D": "Simpler implementation"
+      },
+      "answer": "B",
+      "explanation": "B-trees are optimized for storage systems that read/write large blocks of data (better cache locality)."
+    },
+    {
+      "id": 43,
+      "question": "Which algorithm efficiently finds the kth smallest element in an unsorted array?",
+      "options": {
+        "A": "QuickSelect",
+        "B": "MergeSort",
+        "C": "Binary Search",
+        "D": "BubbleSort"
+      },
+      "answer": "A",
+      "explanation": "QuickSelect is a selection algorithm with average O(n) time complexity."
+    },
+    {
+      "id": 44,
+      "question": "What is the time complexity of the Rabin-Karp string matching algorithm?",
+      "options": {
+        "A": "O(m+n)",
+        "B": "O(mn)",
+        "C": "O(n log m)",
+        "D": "O(n²)"
+      },
+      "answer": "A",
+      "explanation": "Rabin-Karp has average O(m+n) time using rolling hash, though worst case is O(mn)."
+    },
+    {
+      "id": 45,
+      "question": "Which data structure is used for implementing recursion?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Linked List",
+        "D": "Tree"
+      },
+      "answer": "B",
+      "explanation": "The call stack manages function calls and returns in recursion."
+    },
+    {
+      "id": 46,
+      "question": "What is the space complexity of the Boyer-Moore voting algorithm?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n²)"
+      },
+      "answer": "A",
+      "explanation": "It finds majority elements using constant extra space."
+    },
+    {
+      "id": 47,
+      "question": "Which problem can be solved using the Union-Find data structure?",
+      "options": {
+        "A": "Detect cycle in undirected graph",
+        "B": "Kruskal's MST algorithm",
+        "C": "Connected components in graph",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "explanation": "Union-Find efficiently handles these graph problems with near-constant time operations."
+    },
+    {
+      "id": 48,
+      "question": "What is the key idea behind memoization in dynamic programming?",
+      "options": {
+        "A": "Divide and conquer",
+        "B": "Store previously computed results",
+        "C": "Greedy selection",
+        "D": "Backtracking"
+      },
+      "answer": "B",
+      "explanation": "Memoization avoids redundant calculations by caching results of expensive function calls."
+    },
+    {
+      "id": 49,
+      "question": "Which sorting algorithm works by repeatedly selecting the minimum element?",
+      "options": {
+        "A": "QuickSort",
+        "B": "MergeSort",
+        "C": "SelectionSort",
+        "D": "InsertionSort"
+      },
+      "answer": "C",
+      "explanation": "SelectionSort finds the minimum element in each pass and swaps it into place."
+    },
+    {
+      "id": 50,
+      "question": "What is the time complexity to insert into a Bloom filter?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(log n)",
+        "C": "O(n)",
+        "D": "O(k) where k is number of hash functions"
+      },
+      "answer": "D",
+      "explanation": "Insertion requires computing k hash functions, but is independent of n (number of elements)."
+    },
+    {
+      "id": 51,
+      "question": "Which graph representation is most space-efficient for sparse graphs?",
+      "options": {
+        "A": "Adjacency Matrix",
+        "B": "Adjacency List",
+        "C": "Edge List",
+        "D": "Incidence Matrix"
+      },
+      "answer": "B",
+      "explanation": "Adjacency lists use O(V+E) space vs O(V²) for matrices when E << V²."
+    },
+    {
+      "id": 52,
+      "question": "What is the main advantage of a Skip List over a balanced BST?",
+      "options": {
+        "A": "Simpler implementation",
+        "B": "Better cache locality",
+        "C": "Faster range queries",
+        "D": "All of the above"
+      },
+      "answer": "A",
+      "explanation": "Skip lists provide O(log n) operations with simpler implementation than AVL/Red-Black trees."
+    },
+    {
+      "id": 53,
+      "question": "Which algorithm uses three pointers for partitioning?",
+      "options": {
+        "A": "QuickSort (Lomuto partition)",
+        "B": "QuickSort (Hoare partition)",
+        "C": "Dutch National Flag",
+        "D": "MergeSort"
+      },
+      "answer": "C",
+      "explanation": "Dutch National Flag algorithm partitions into three regions using low/mid/high pointers."
+    },
+    {
+      "id": 54,
+      "question": "What is the time complexity of Strassen's matrix multiplication?",
+      "options": {
+        "A": "O(n²)",
+        "B": "O(n^2.807)",
+        "C": "O(n³)",
+        "D": "O(n log n)"
+      },
+      "answer": "B",
+      "explanation": "Strassen's algorithm achieves O(n^log₂7) ≈ O(n^2.807) using divide-and-conquer."
+    },
+    {
+      "id": 55,
+      "question": "Which data structure provides O(1) average time for insert, delete, and search?",
+      "options": {
+        "A": "Binary Search Tree",
+        "B": "Hash Table",
+        "C": "Linked List",
+        "D": "Heap"
+      },
+      "answer": "B",
+      "explanation": "Hash tables provide average constant time operations with good hash functions."
+    },
+    {
+      "id": 56,
+      "question": "What is the key property of a min-heap?",
+      "options": {
+        "A": "Parent <= Children",
+        "B": "Left child <= Right child",
+        "C": "Complete binary tree",
+        "D": "Both A and C"
+      },
+      "answer": "D",
+      "explanation": "Min-heap maintains parent <= children (heap property) and is a complete binary tree."
+    },
+    {
+      "id": 57,
+      "question": "Which algorithm is used to solve the N-Queens problem?",
+      "options": {
+        "A": "Dynamic Programming",
+        "B": "Backtracking",
+        "C": "Greedy",
+        "D": "Divide and Conquer"
+      },
+      "answer": "B",
+      "explanation": "Backtracking systematically explores possible configurations and abandons invalid paths."
+    },
+    {
+      "id": 58,
+      "question": "What is the time complexity of Johnson's algorithm for all pairs shortest paths?",
+      "options": {
+        "A": "O(V²)",
+        "B": "O(V² log V)",
+        "C": "O(V² log V + VE)",
+        "D": "O(V³)"
+      },
+      "answer": "C",
+      "explanation": "Johnson's runs Bellman-Ford once and Dijkstra's V times, giving O(V² log V + VE)."
+    },
+    {
+      "id": 59,
+      "question": "Which data structure is used in Huffman coding?",
+      "options": {
+        "A": "Stack",
+        "B": "Priority Queue",
+        "C": "Hash Table",
+        "D": "Graph"
+      },
+      "answer": "B",
+      "explanation": "Huffman coding builds the tree by repeatedly merging nodes with smallest frequencies."
+    },
+    {
+      "id": 60,
+      "question": "What is the main advantage of a Trie over a hash table for strings?",
+      "options": {
+        "A": "Faster lookups",
+        "B": "Prefix searches",
+        "C": "Smaller memory footprint",
+        "D": "Handles collisions better"
+      },
+      "answer": "B",
+      "explanation": "Tries efficiently support prefix-based operations like autocomplete."
+    },
+    {
+      "id": 61,
+      "question": "Which algorithm finds articulation points in a graph?",
+      "options": {
+        "A": "Dijkstra's",
+        "B": "Tarjan's",
+        "C": "Kruskal's",
+        "D": "Prim's"
+      },
+      "answer": "B",
+      "explanation": "Tarjan's algorithm identifies articulation points (nodes whose removal increases connected components)."
+    },
+    {
+      "id": 62,
+      "question": "What is the time complexity of counting sort when k=O(n)?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(n log n)",
+        "D": "O(n²)"
+      },
+      "answer": "B",
+      "explanation": "Counting sort runs in O(n+k) time, which is O(n) when range k is O(n)."
+    },
+    {
+      "id": 63,
+      "question": "Which data structure is used for implementing a browser's back button?",
+      "options": {
+        "A": "Queue",
+        "B": "Two Stacks",
+        "C": "Heap",
+        "D": "Linked List"
+      },
+      "answer": "B",
+      "explanation": "Two stacks (one for back, one for forward) efficiently implement browser history."
+    },
+    {
+      "id": 64,
+      "question": "What is the main advantage of a circular queue over a linear queue?",
+      "options": {
+        "A": "Faster enqueue",
+        "B": "Reuses empty spaces",
+        "C": "Constant time access",
+        "D": "Smaller memory usage"
+      },
+      "answer": "B",
+      "explanation": "Circular queues reuse the space after dequeue operations."
+    },
+    {
+      "id": 65,
+      "question": "Which algorithm uses a 'sliding window' technique?",
+      "options": {
+        "A": "QuickSort",
+        "B": "Kadane's",
+        "C": "Dijkstra's",
+        "D": "Prim's"
+      },
+      "answer": "B",
+      "explanation": "Kadane's algorithm for maximum subarray uses a sliding window approach."
+    },
+    {
+      "id": 66,
+      "question": "What is the time complexity of the A* search algorithm?",
+      "options": {
+        "A": "O(b^d)",
+        "B": "O(d)",
+        "C": "O(n)",
+        "D": "O(n log n)"
+      },
+      "answer": "A",
+      "explanation": "A* has exponential time complexity where b is branching factor and d is depth."
+    },
+    {
+      "id": 67,
+      "question": "Which data structure is used in segment trees?",
+      "options": {
+        "A": "Complete binary tree",
+        "B": "AVL tree",
+        "C": "B-tree",
+        "D": "Red-Black tree"
+      },
+      "answer": "A",
+      "explanation": "Segment trees are represented as complete binary trees for efficient range queries."
+    },
+    {
+      "id": 68,
+      "question": "What is the main advantage of a doubly linked list over a singly linked list?",
+      "options": {
+        "A": "Faster insertion",
+        "B": "Bidirectional traversal",
+        "C": "Less memory",
+        "D": "Faster search"
+      },
+      "answer": "B",
+      "explanation": "Doubly linked lists allow traversal in both directions at the cost of extra memory."
+    },
+    {
+      "id": 69,
+      "question": "Which algorithm is used for finding bridges in a graph?",
+      "options": {
+        "A": "Kruskal's",
+        "B": "Tarjan's",
+        "C": "Dijkstra's",
+        "D": "Bellman-Ford"
+      },
+      "answer": "B",
+      "explanation": "Tarjan's algorithm can find bridges (edges whose removal increases connected components)."
+    },
+    {
+      "id": 70,
+      "question": "What is the time complexity of the Edmonds-Karp algorithm for max flow?",
+      "options": {
+        "A": "O(E)",
+        "B": "O(VE²)",
+        "C": "O(V²E)",
+        "D": "O(V³)"
+      },
+      "answer": "B",
+      "explanation": "Edmonds-Karp (BFS-based Ford-Fulkerson) runs in O(VE²) time."
+    },
+    {
+      "id": 71,
+      "question": "Which data structure is used for implementing a cache with FIFO eviction?",
+      "options": {
+        "A": "Stack",
+        "B": "Queue",
+        "C": "Heap",
+        "D": "Tree"
+      },
+      "answer": "B",
+      "explanation": "FIFO cache uses a queue to track insertion order for eviction."
+    },
+    {
+      "id": 72,
+      "question": "What is the main advantage of a B+ tree over a B-tree for databases?",
+      "options": {
+        "A": "Faster insertions",
+        "B": "Sequential access efficiency",
+        "C": "Smaller node size",
+        "D": "Simpler implementation"
+      },
+      "answer": "B",
+      "explanation": "B+ trees store all data in leaves linked sequentially, optimizing range queries."
+    },
+    {
+      "id": 73,
+      "question": "Which algorithm uses the 'meet in the middle' technique?",
+      "options": {
+        "A": "MergeSort",
+        "B": "Karatsuba multiplication",
+        "C": "Subset sum problem",
+        "D": "Dijkstra's"
+      },
+      "answer": "C",
+      "explanation": "Some subset sum solutions split the problem into two halves and combine results."
+    },
+    {
+      "id": 74,
+      "question": "What is the time complexity of the Bellman-Ford algorithm?",
+      "options": {
+        "A": "O(E)",
+        "B": "O(VE)",
+        "C": "O(V log V)",
+        "D": "O(V²)"
+      },
+      "answer": "B",
+      "explanation": "Bellman-Ford relaxes all edges V-1 times, resulting in O(VE) time."
+    },
+    {
+      "id": 75,
+      "question": "Which data structure is used for implementing a text editor's undo feature?",
+      "options": {
+        "A": "Queue",
+        "B": "Two Stacks",
+        "C": "Heap",
+        "D": "Linked List"
+      },
+      "answer": "B",
+      "explanation": "Two stacks (one for undo, one for redo) efficiently implement this functionality."
+    },
+    {
+      "id": 76,
+      "question": "What is the space complexity of the Floyd cycle detection algorithm?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n²)"
+      },
+      "answer": "A",
+      "explanation": "Floyd's Tortoise and Hare algorithm uses only two pointers (constant space)."
+    },
+    {
+      "id": 77,
+      "question": "Which algorithm is used for polygon triangulation?",
+      "options": {
+        "A": "Dijkstra's",
+        "B": "Sweep line",
+        "C": "Kruskal's",
+        "D": "Prim's"
+      },
+      "answer": "B",
+      "explanation": "Sweep line algorithms are commonly used for polygon triangulation."
+    },
+    {
+      "id": 78,
+      "question": "What is the time complexity of building a suffix array?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n²)",
+        "D": "O(n log² n)"
+      },
+      "answer": "B",
+      "explanation": "Efficient suffix array construction algorithms achieve O(n log n) time."
+    },
+    {
+      "id": 79,
+      "question": "Which data structure is used in the Linux kernel's process scheduler?",
+      "options": {
+        "A": "Linked List",
+        "B": "Heap",
+        "C": "Red-Black Tree",
+        "D": "Hash Table"
+      },
+      "answer": "C",
+      "explanation": "The Completely Fair Scheduler uses Red-Black trees for O(log n) operations."
+    },
+    {
+      "id": 80,
+      "question": "What is the main advantage of a Fibonacci heap over a binary heap?",
+      "options": {
+        "A": "Faster decrease-key",
+        "B": "Smaller memory usage",
+        "C": "Simpler implementation",
+        "D": "Better cache locality"
+      },
+      "answer": "A",
+      "explanation": "Fibonacci heaps have amortized O(1) decrease-key vs O(log n) for binary heaps."
+    },
+    {
+      "id": 81,
+      "question": "Which algorithm is used for solving the stable marriage problem?",
+      "options": {
+        "A": "Gale-Shapley",
+        "B": "Dijkstra's",
+        "C": "Kruskal's",
+        "D": "Prim's"
+      },
+      "answer": "A",
+      "explanation": "Gale-Shapley algorithm guarantees stable matching in O(n²) time."
+    },
+    {
+      "id": 82,
+      "question": "What is the time complexity of the Hungarian algorithm?",
+      "options": {
+        "A": "O(n²)",
+        "B": "O(n³)",
+        "C": "O(n⁴)",
+        "D": "O(n!)"
+      },
+      "answer": "B",
+      "explanation": "The Hungarian algorithm solves assignment problems in O(n³) time."
+    },
+    {
+      "id": 83,
+      "question": "Which data structure is used for range minimum queries with O(1) time?",
+      "options": {
+        "A": "Segment Tree",
+        "B": "Binary Indexed Tree",
+        "C": "Sparse Table",
+        "D": "Fenwick Tree"
+      },
+      "answer": "C",
+      "explanation": "Sparse tables support O(1) RMQ with O(n log n) preprocessing."
+    },
+    {
+      "id": 84,
+      "question": "What is the main advantage of a Van Emde Boas tree?",
+      "options": {
+        "A": "Faster predecessor/successor queries",
+        "B": "Smaller memory usage",
+        "C": "Simpler implementation",
+        "D": "Better cache locality"
+      },
+      "answer": "A",
+      "explanation": "vEB trees support O(log log U) operations for integers in [0,U-1] range."
+    },
+    {
+      "id": 85,
+      "question": "Which algorithm is used for finding the convex hull?",
+      "options": {
+        "A": "Graham Scan",
+        "B": "Dijkstra's",
+        "C": "Kruskal's",
+        "D": "Prim's"
+      },
+      "answer": "A",
+      "explanation": "Graham Scan finds the convex hull in O(n log n) time."
+    },
+    {
+      "id": 86,
+      "question": "What is the time complexity of the Knapsack problem with DP?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(nW)",
+        "C": "O(n log W)",
+        "D": "O(n²)"
+      },
+      "answer": "B",
+      "explanation": "DP solution for 0/1 Knapsack has O(nW) time where W is capacity."
+    },
+    {
+      "id": 87,
+      "question": "Which data structure is used for autocomplete systems?",
+      "options": {
+        "A": "Hash Table",
+        "B": "Trie",
+        "C": "Heap",
+        "D": "Graph"
+      },
+      "answer": "B",
+      "explanation": "Tries efficiently support prefix-based searches needed for autocomplete."
+    },
+    {
+      "id": 88,
+      "question": "What is the space complexity of the DP solution for Fibonacci?",
+      "options": {
+        "A": "O(1)",
+        "B": "O(n)",
+        "C": "O(log n)",
+        "D": "O(n²)"
+      },
+      "answer": "A",
+      "explanation": "With just two variables storing previous values, space is constant."
+    },
+    {
+      "id": 89,
+      "question": "Which algorithm is used for finding the longest common subsequence?",
+      "options": {
+        "A": "Kadane's",
+        "B": "Dynamic Programming",
+        "C": "Dijkstra's",
+        "D": "Kruskal's"
+      },
+      "answer": "B",
+      "explanation": "LCS is typically solved using dynamic programming in O(mn) time."
+    },
+    {
+      "id": 90,
+      "question": "What is the main advantage of a B*-tree over a B+tree?",
+      "options": {
+        "A": "Higher node occupancy",
+        "B": "Faster searches",
+        "C": "Simpler implementation",
+        "D": "Better cache locality"
+      },
+      "answer": "A",
+      "explanation": "B*-trees enforce 2/3 node occupancy vs 1/2 in B-trees for better space utilization."
+    },
+    {
+      "id": 91,
+      "question": "Which algorithm is used for finding strongly connected components?",
+      "options": {
+        "A": "Kosaraju's",
+        "B": "Dijkstra's",
+        "C": "Kruskal's",
+        "D": "Prim's"
+      },
+      "answer": "A",
+      "explanation": "Kosaraju's algorithm finds SCCs in O(V+E) time using two DFS passes."
+    },
+    {
+      "id": 92,
+      "question": "What is the time complexity of the Z algorithm for pattern matching?",
+      "options": {
+        "A": "O(m+n)",
+        "B": "O(mn)",
+        "C": "O(n log m)",
+        "D": "O(n²)"
+      },
+      "answer": "A",
+      "explanation": "Z algorithm preprocesses the pattern in O(m+n) time for string matching."
+    },
+    {
+      "id": 93,
+      "question": "Which data structure is used for implementing a disjoint set?",
+      "options": {
+        "A": "Array",
+        "B": "Forest of trees",
+        "C": "Linked List",
+        "D": "Hash Table"
+      },
+      "answer": "B",
+      "explanation": "Disjoint sets are typically implemented with parent-pointer trees and union-by-rank."
+    },
+    {
+      "id": 94,
+      "question": "What is the main advantage of a Cartesian tree?",
+      "options": {
+        "A": "Range minimum queries",
+        "B": "Faster insertion",
+        "C": "Smaller memory",
+        "D": "Simpler implementation"
+      },
+      "answer": "A",
+      "explanation": "Cartesian trees convert RMQ problems to LCA problems in O(n) preprocessing."
+    },
+    {
+      "id": 95,
+      "question": "Which algorithm is used for finding maximum flow?",
+      "options": {
+        "A": "Ford-Fulkerson",
+        "B": "Dijkstra's",
+        "C": "Kruskal's",
+        "D": "Prim's"
+      },
+      "answer": "A",
+      "explanation": "Ford-Fulkerson method with various implementations (Edmonds-Karp, Dinic's, etc.) solves max flow."
+    },
+    {
+      "id": 96,
+      "question": "What is the time complexity of the Aho-Corasick algorithm?",
+      "options": {
+        "A": "O(m+n)",
+        "B": "O(mn)",
+        "C": "O(n log m)",
+        "D": "O(n + m + z)"
+      },
+      "answer": "D",
+      "explanation": "Aho-Corasick finds all pattern matches in O(n + m + z) time where z is matches."
+    },
+    {
+      "id": 97,
+      "question": "Which data structure is used for order statistics?",
+      "options": {
+        "A": "Order Statistic Tree",
+        "B": "Hash Table",
+        "C": "Heap",
+        "D": "Graph"
+      },
+      "answer": "A",
+      "explanation": "Order statistic trees augment BSTs to support rank/select operations in O(log n) time."
+    },
+    {
+      "id": 98,
+      "question": "What is the main advantage of a Quadtree?",
+      "options": {
+        "A": "Spatial partitioning",
+        "B": "Faster searches",
+        "C": "Smaller memory",
+        "D": "Simpler implementation"
+      },
+      "answer": "A",
+      "explanation": "Quadtrees recursively partition 2D space for efficient spatial queries."
+    },
+    {
+      "id": 99,
+      "question": "Which algorithm is used for finding articulation points?",
+      "options": {
+        "A": "Tarjan's",
+        "B": "Dijkstra's",
+        "C": "Kruskal's",
+        "D": "Prim's"
+      },
+      "answer": "A",
+      "explanation": "Tarjan's algorithm finds articulation points in O(V+E) time using DFS."
+    },
+    {
+      "id": 100,
+      "question": "What is the time complexity of the Manacher's algorithm?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(n²)",
+        "D": "O(n³)"
+      },
+      "answer": "A",
+      "explanation": "Manacher's algorithm finds all palindromes in a string in linear time."
+    }
+  ]

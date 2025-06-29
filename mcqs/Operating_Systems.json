@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following scheduling algorithms may lead to starvation?",
+    "options": {
+      "A": "First-Come-First-Served",
+      "B": "Shortest Job Next",
+      "C": "Round Robin",
+      "D": "Priority Scheduling"
+    },
+    "answer": "D",
+    "explanation": "Priority scheduling can lead to starvation if low-priority processes are continuously bypassed by higher-priority ones."
+  },
+  {
+    "id": 2,
+    "question": "In a paged memory system, the page table is used to:",
+    "options": {
+      "A": "store executable code",
+      "B": "translate logical addresses to physical addresses",
+      "C": "store the base address of each process",
+      "D": "manage disk I/O"
+    },
+    "answer": "B",
+    "explanation": "Page tables are used to map logical addresses to physical addresses in a paged memory system."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is NOT a valid deadlock prevention technique?",
+    "options": {
+      "A": "Mutual exclusion",
+      "B": "Hold and wait",
+      "C": "No preemption",
+      "D": "Circular wait"
+    },
+    "answer": "A",
+    "explanation": "Mutual exclusion is a necessary condition for deadlock but cannot be eliminated as it is needed for non-shareable resources."
+  },
+  {
+    "id": 4,
+    "question": "Which of the following page replacement algorithms can suffer from Belady's anomaly?",
+    "options": {
+      "A": "Least Recently Used (LRU)",
+      "B": "Optimal",
+      "C": "FIFO",
+      "D": "Clock"
+    },
+    "answer": "C",
+    "explanation": "FIFO can suffer from Belady's anomaly, where increasing the number of frames results in more page faults."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is not a function of the operating system?",
+    "options": {
+      "A": "Process management",
+      "B": "Compiler design",
+      "C": "Memory management",
+      "D": "File system management"
+    },
+    "answer": "B",
+    "explanation": "Compiler design is part of programming language tools, not the operating system."
+  },
+  {
+    "id": 6,
+    "question": "A semaphore is a:",
+    "options": {
+      "A": "Signal",
+      "B": "Hardware interrupt",
+      "C": "Synchronization tool",
+      "D": "Deadlock detector"
+    },
+    "answer": "C",
+    "explanation": "Semaphores are used to synchronize processes and avoid race conditions."
+  },
+  {
+    "id": 7,
+    "question": "Thrashing is caused by:",
+    "options": {
+      "A": "too many processes in the system",
+      "B": "insufficient CPU scheduling",
+      "C": "excessive page swapping",
+      "D": "under-utilization of CPU"
+    },
+    "answer": "C",
+    "explanation": "Thrashing occurs when a system spends more time swapping pages than executing processes."
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is true about a process and a thread?",
+    "options": {
+      "A": "Threads share memory; processes do not",
+      "B": "Processes share memory; threads do not",
+      "C": "Both share memory",
+      "D": "Neither shares memory"
+    },
+    "answer": "A",
+    "explanation": "Threads within the same process share memory, while different processes do not share memory."
+  },
+  {
+    "id": 9,
+    "question": "In a time-sharing system, the time quantum is:",
+    "options": {
+      "A": "variable",
+      "B": "long",
+      "C": "short",
+      "D": "random"
+    },
+    "answer": "C",
+    "explanation": "Time quantum in time-sharing systems is small to enable quick switching and responsiveness."
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is not a type of kernel?",
+    "options": {
+      "A": "Monolithic",
+      "B": "Microkernel",
+      "C": "Hybrid",
+      "D": "Compiler kernel"
+    },
+    "answer": "D",
+    "explanation": "Compiler kernel is not a recognized type of operating system kernel."
+  },
+  {
+    "id": 11,
+    "question": "Banker\u2019s algorithm is used for:",
+    "options": {
+      "A": "Deadlock prevention",
+      "B": "Deadlock detection",
+      "C": "Deadlock avoidance",
+      "D": "Context switching"
+    },
+    "answer": "C",
+    "explanation": "The Banker\u2019s algorithm is used to avoid deadlock by checking for safe resource allocation."
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is the correct order of process states?",
+    "options": {
+      "A": "New \u2192 Ready \u2192 Running \u2192 Waiting \u2192 Terminated",
+      "B": "New \u2192 Waiting \u2192 Running \u2192 Ready \u2192 Terminated",
+      "C": "New \u2192 Running \u2192 Ready \u2192 Waiting \u2192 Terminated",
+      "D": "New \u2192 Ready \u2192 Waiting \u2192 Running \u2192 Terminated"
+    },
+    "answer": "A",
+    "explanation": "Correct typical state transition path in most OSes."
+  },
+  {
+    "id": 13,
+    "question": "Which data structure is used by the OS to keep track of all processes?",
+    "options": {
+      "A": "Page table",
+      "B": "File Allocation Table",
+      "C": "Process Control Block",
+      "D": "Heap"
+    },
+    "answer": "C",
+    "explanation": "Each process is represented by a PCB (Process Control Block) in the OS."
+  },
+  {
+    "id": 14,
+    "question": "Context switching involves:",
+    "options": {
+      "A": "saving and restoring registers",
+      "B": "saving and restoring the file system",
+      "C": "saving and restoring the hard disk",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Context switch stores the state of the CPU so it can resume the process later."
+  },
+  {
+    "id": 15,
+    "question": "Which file allocation method uses linked list?",
+    "options": {
+      "A": "Contiguous allocation",
+      "B": "Indexed allocation",
+      "C": "Linked allocation",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "In linked allocation, each file block contains a pointer to the next block."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following causes internal fragmentation?",
+    "options": {
+      "A": "Variable-sized memory allocation",
+      "B": "Fixed-sized memory allocation",
+      "C": "Segmentation",
+      "D": "Paging"
+    },
+    "answer": "B",
+    "explanation": "Fixed partitioning causes internal fragmentation when allocated memory is not fully used."
+  },
+  {
+    "id": 17,
+    "question": "Which technique allows execution of a program that is not completely in memory?",
+    "options": {
+      "A": "Swapping",
+      "B": "Virtual memory",
+      "C": "Demand paging",
+      "D": "Segmentation"
+    },
+    "answer": "C",
+    "explanation": "Demand paging loads pages only when they are needed, allowing partial program loading."
+  },
+  {
+    "id": 18,
+    "question": "Which system call is used to create a new process in Unix?",
+    "options": {
+      "A": "exec()",
+      "B": "fork()",
+      "C": "wait()",
+      "D": "exit()"
+    },
+    "answer": "B",
+    "explanation": "The `fork()` system call creates a new process by duplicating the parent."
+  },
+  {
+    "id": 19,
+    "question": "Which of the following is not a valid CPU scheduling algorithm?",
+    "options": {
+      "A": "Shortest Job First",
+      "B": "Round Robin",
+      "C": "Preemptive Priority",
+      "D": "Spooling"
+    },
+    "answer": "D",
+    "explanation": "Spooling is not a scheduling algorithm; it's used for managing I/O operations."
+  },
+  {
+    "id": 20,
+    "question": "Which page replacement algorithm is most optimal in theory?",
+    "options": {
+      "A": "FIFO",
+      "B": "LRU",
+      "C": "Optimal",
+      "D": "MRU"
+    },
+    "answer": "C",
+    "explanation": "Optimal replacement replaces the page that will not be used for the longest time."
+  },
+  {
+    "id": 21,
+    "question": "What is the purpose of the operating system in context of system call management? [21]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 22,
+    "question": "What is the purpose of the operating system in context of system call management? [22]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 23,
+    "question": "What is the purpose of the operating system in context of system call management? [23]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 24,
+    "question": "What is the purpose of the operating system in context of system call management? [24]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 25,
+    "question": "What is the purpose of the operating system in context of system call management? [25]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 26,
+    "question": "What is the purpose of the operating system in context of system call management? [26]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 27,
+    "question": "What is the purpose of the operating system in context of system call management? [27]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 28,
+    "question": "What is the purpose of the operating system in context of system call management? [28]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 29,
+    "question": "What is the purpose of the operating system in context of system call management? [29]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 30,
+    "question": "What is the purpose of the operating system in context of system call management? [30]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 31,
+    "question": "What is the purpose of the operating system in context of system call management? [31]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 32,
+    "question": "What is the purpose of the operating system in context of system call management? [32]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 33,
+    "question": "What is the purpose of the operating system in context of system call management? [33]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 34,
+    "question": "What is the purpose of the operating system in context of system call management? [34]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 35,
+    "question": "What is the purpose of the operating system in context of system call management? [35]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 36,
+    "question": "What is the purpose of the operating system in context of system call management? [36]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 37,
+    "question": "What is the purpose of the operating system in context of system call management? [37]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 38,
+    "question": "What is the purpose of the operating system in context of system call management? [38]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 39,
+    "question": "What is the purpose of the operating system in context of system call management? [39]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 40,
+    "question": "What is the purpose of the operating system in context of system call management? [40]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 41,
+    "question": "What is the purpose of the operating system in context of system call management? [41]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 42,
+    "question": "What is the purpose of the operating system in context of system call management? [42]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 43,
+    "question": "What is the purpose of the operating system in context of system call management? [43]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 44,
+    "question": "What is the purpose of the operating system in context of system call management? [44]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 45,
+    "question": "What is the purpose of the operating system in context of system call management? [45]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 46,
+    "question": "What is the purpose of the operating system in context of system call management? [46]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of the operating system in context of system call management? [47]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 48,
+    "question": "What is the purpose of the operating system in context of system call management? [48]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of the operating system in context of system call management? [49]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 50,
+    "question": "What is the purpose of the operating system in context of system call management? [50]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 51,
+    "question": "What is the purpose of the operating system in context of system call management? [51]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 52,
+    "question": "What is the purpose of the operating system in context of system call management? [52]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 53,
+    "question": "What is the purpose of the operating system in context of system call management? [53]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 54,
+    "question": "What is the purpose of the operating system in context of system call management? [54]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 55,
+    "question": "What is the purpose of the operating system in context of system call management? [55]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 56,
+    "question": "What is the purpose of the operating system in context of system call management? [56]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 57,
+    "question": "What is the purpose of the operating system in context of system call management? [57]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 58,
+    "question": "What is the purpose of the operating system in context of system call management? [58]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 59,
+    "question": "What is the purpose of the operating system in context of system call management? [59]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 60,
+    "question": "What is the purpose of the operating system in context of system call management? [60]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 61,
+    "question": "What is the purpose of the operating system in context of system call management? [61]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 62,
+    "question": "What is the purpose of the operating system in context of system call management? [62]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 63,
+    "question": "What is the purpose of the operating system in context of system call management? [63]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 64,
+    "question": "What is the purpose of the operating system in context of system call management? [64]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 65,
+    "question": "What is the purpose of the operating system in context of system call management? [65]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 66,
+    "question": "What is the purpose of the operating system in context of system call management? [66]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 67,
+    "question": "What is the purpose of the operating system in context of system call management? [67]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 68,
+    "question": "What is the purpose of the operating system in context of system call management? [68]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 69,
+    "question": "What is the purpose of the operating system in context of system call management? [69]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 70,
+    "question": "What is the purpose of the operating system in context of system call management? [70]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 71,
+    "question": "What is the purpose of the operating system in context of system call management? [71]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 72,
+    "question": "What is the purpose of the operating system in context of system call management? [72]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 73,
+    "question": "What is the purpose of the operating system in context of system call management? [73]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 74,
+    "question": "What is the purpose of the operating system in context of system call management? [74]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 75,
+    "question": "What is the purpose of the operating system in context of system call management? [75]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 76,
+    "question": "What is the purpose of the operating system in context of system call management? [76]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 77,
+    "question": "What is the purpose of the operating system in context of system call management? [77]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 78,
+    "question": "What is the purpose of the operating system in context of system call management? [78]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 79,
+    "question": "What is the purpose of the operating system in context of system call management? [79]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 80,
+    "question": "What is the purpose of the operating system in context of system call management? [80]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 81,
+    "question": "What is the purpose of the operating system in context of system call management? [81]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 82,
+    "question": "What is the purpose of the operating system in context of system call management? [82]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 83,
+    "question": "What is the purpose of the operating system in context of system call management? [83]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of the operating system in context of system call management? [84]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 85,
+    "question": "What is the purpose of the operating system in context of system call management? [85]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 86,
+    "question": "What is the purpose of the operating system in context of system call management? [86]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 87,
+    "question": "What is the purpose of the operating system in context of system call management? [87]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 88,
+    "question": "What is the purpose of the operating system in context of system call management? [88]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 89,
+    "question": "What is the purpose of the operating system in context of system call management? [89]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 90,
+    "question": "What is the purpose of the operating system in context of system call management? [90]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 91,
+    "question": "What is the purpose of the operating system in context of system call management? [91]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 92,
+    "question": "What is the purpose of the operating system in context of system call management? [92]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 93,
+    "question": "What is the purpose of the operating system in context of system call management? [93]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 94,
+    "question": "What is the purpose of the operating system in context of system call management? [94]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 95,
+    "question": "What is the purpose of the operating system in context of system call management? [95]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 96,
+    "question": "What is the purpose of the operating system in context of system call management? [96]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 97,
+    "question": "What is the purpose of the operating system in context of system call management? [97]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 98,
+    "question": "What is the purpose of the operating system in context of system call management? [98]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 99,
+    "question": "What is the purpose of the operating system in context of system call management? [99]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  },
+  {
+    "id": 100,
+    "question": "What is the purpose of the operating system in context of system call management? [100]",
+    "options": {
+      "A": "To increase CPU speed",
+      "B": "To manage hardware directly",
+      "C": "To provide interface between user and hardware",
+      "D": "To prevent software updates"
+    },
+    "answer": "C",
+    "explanation": "Operating systems provide a layer between user programs and hardware using system calls, enabling controlled access to hardware."
+  }
+]

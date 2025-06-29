@@ -1,0 +1,1025 @@
+[
+    {
+      "id": 1,
+      "question": "What is the primary purpose of a computer network?",
+      "options": {
+        "A": "To share resources and information",
+        "B": "To increase computer speed",
+        "C": "To reduce electricity consumption",
+        "D": "To make computers smaller"
+      },
+      "answer": "A",
+      "explanation": "Computer networks enable resource sharing (files, printers, etc.) and information exchange between connected devices."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a network topology?",
+      "options": {
+        "A": "Star",
+        "B": "Bus",
+        "C": "Ring",
+        "D": "Cube"
+      },
+      "answer": "D",
+      "explanation": "Common network topologies include star, bus, ring, mesh, and tree. 'Cube' is not a standard network topology."
+    },
+    {
+      "id": 3,
+      "question": "What does LAN stand for?",
+      "options": {
+        "A": "Local Area Network",
+        "B": "Large Area Network",
+        "C": "Linked Access Network",
+        "D": "Logical Address Node"
+      },
+      "answer": "A",
+      "explanation": "LAN stands for Local Area Network, a network covering a small geographic area like a home or office."
+    },
+    {
+      "id": 4,
+      "question": "Which protocol is used to transfer web pages on the Internet?",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "SMTP",
+        "D": "TCP"
+      },
+      "answer": "B",
+      "explanation": "HTTP (Hypertext Transfer Protocol) is used for transferring web pages and related content on the World Wide Web."
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of an IP address?",
+      "options": {
+        "A": "To identify a device on a network",
+        "B": "To measure internet speed",
+        "C": "To encrypt data",
+        "D": "To store web pages"
+      },
+      "answer": "A",
+      "explanation": "An IP address uniquely identifies a device on a network and enables communication between devices."
+    },
+    {
+      "id": 6,
+      "question": "Which layer of the OSI model deals with routing?",
+      "options": {
+        "A": "Physical",
+        "B": "Data Link",
+        "C": "Network",
+        "D": "Transport"
+      },
+      "answer": "C",
+      "explanation": "The Network layer (Layer 3) handles logical addressing and routing of packets across networks."
+    },
+    {
+      "id": 7,
+      "question": "What does DNS stand for?",
+      "options": {
+        "A": "Domain Name System",
+        "B": "Data Network Service",
+        "C": "Digital Naming Standard",
+        "D": "Dynamic Node Selection"
+      },
+      "answer": "A",
+      "explanation": "DNS (Domain Name System) translates human-readable domain names to machine-readable IP addresses."
+    },
+    {
+      "id": 8,
+      "question": "Which device operates at the Network layer of the OSI model?",
+      "options": {
+        "A": "Hub",
+        "B": "Switch",
+        "C": "Router",
+        "D": "Repeater"
+      },
+      "answer": "C",
+      "explanation": "Routers operate at Layer 3 (Network layer) to route packets between different networks."
+    },
+    {
+      "id": 9,
+      "question": "What is the default port number for HTTP?",
+      "options": {
+        "A": "21",
+        "B": "25",
+        "C": "80",
+        "D": "443"
+      },
+      "answer": "C",
+      "explanation": "HTTP typically uses port 80, while HTTPS uses port 443."
+    },
+    {
+      "id": 10,
+      "question": "Which protocol is used for sending email?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "SMTP",
+        "D": "TCP"
+      },
+      "answer": "C",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending email messages between servers."
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of a subnet mask?",
+      "options": {
+        "A": "To identify the network portion of an IP address",
+        "B": "To encrypt network traffic",
+        "C": "To measure network speed",
+        "D": "To connect to WiFi"
+      },
+      "answer": "A",
+      "explanation": "A subnet mask distinguishes the network and host portions of an IP address."
+    },
+    {
+      "id": 12,
+      "question": "Which cable type is most resistant to electromagnetic interference?",
+      "options": {
+        "A": "UTP",
+        "B": "STP",
+        "C": "Coaxial",
+        "D": "Fiber optic"
+      },
+      "answer": "D",
+      "explanation": "Fiber optic cables use light instead of electricity, making them immune to electromagnetic interference."
+    },
+    {
+      "id": 13,
+      "question": "What does VPN stand for?",
+      "options": {
+        "A": "Virtual Private Network",
+        "B": "Verified Public Node",
+        "C": "Variable Protocol Number",
+        "D": "Voltage Protected Network"
+      },
+      "answer": "A",
+      "explanation": "VPN (Virtual Private Network) extends a private network across a public network, enabling secure remote access."
+    },
+    {
+      "id": 14,
+      "question": "Which protocol provides error-free data transmission?",
+      "options": {
+        "A": "IP",
+        "B": "UDP",
+        "C": "TCP",
+        "D": "HTTP"
+      },
+      "answer": "C",
+      "explanation": "TCP (Transmission Control Protocol) provides reliable, ordered, and error-checked delivery of data."
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of ARP?",
+      "options": {
+        "A": "To map IP addresses to MAC addresses",
+        "B": "To encrypt network traffic",
+        "C": "To route packets between networks",
+        "D": "To compress data"
+      },
+      "answer": "A",
+      "explanation": "ARP (Address Resolution Protocol) resolves IP addresses to MAC addresses on local networks."
+    },
+    {
+      "id": 16,
+      "question": "Which wireless standard operates at 5 GHz?",
+      "options": {
+        "A": "802.11a",
+        "B": "802.11b",
+        "C": "802.11g",
+        "D": "802.11n"
+      },
+      "answer": "A",
+      "explanation": "802.11a operates at 5 GHz, while 802.11b/g operate at 2.4 GHz, and 802.11n can use both."
+    },
+    {
+      "id": 17,
+      "question": "What is the primary function of a firewall?",
+      "options": {
+        "A": "To block unauthorized access",
+        "B": "To increase network speed",
+        "C": "To store backups",
+        "D": "To manage email"
+      },
+      "answer": "A",
+      "explanation": "Firewalls monitor and control incoming and outgoing network traffic based on security rules."
+    },
+    {
+      "id": 18,
+      "question": "Which protocol is used for dynamic IP address assignment?",
+      "options": {
+        "A": "DNS",
+        "B": "DHCP",
+        "C": "FTP",
+        "D": "SNMP"
+      },
+      "answer": "B",
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses to network devices."
+    },
+    {
+      "id": 19,
+      "question": "What does NAT stand for?",
+      "options": {
+        "A": "Network Address Translation",
+        "B": "Node Access Technology",
+        "C": "Numbered Access Terminal",
+        "D": "Network Authentication Token"
+      },
+      "answer": "A",
+      "explanation": "NAT (Network Address Translation) allows multiple devices to share a single public IP address."
+    },
+    {
+      "id": 20,
+      "question": "Which device operates at the Data Link layer?",
+      "options": {
+        "A": "Router",
+        "B": "Switch",
+        "C": "Hub",
+        "D": "Repeater"
+      },
+      "answer": "B",
+      "explanation": "Switches operate at Layer 2 (Data Link layer) and use MAC addresses to forward frames."
+    },
+    {
+      "id": 21,
+      "question": "What is the purpose of ICMP?",
+      "options": {
+        "A": "To send error messages and operational information",
+        "B": "To transfer files",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "ICMP (Internet Control Message Protocol) is used for diagnostic and control messages like ping."
+    },
+    {
+      "id": 22,
+      "question": "Which port number is used by HTTPS?",
+      "options": {
+        "A": "21",
+        "B": "80",
+        "C": "443",
+        "D": "25"
+      },
+      "answer": "C",
+      "explanation": "HTTPS (HTTP Secure) uses port 443 for encrypted web traffic."
+    },
+    {
+      "id": 23,
+      "question": "What is the maximum speed of Fast Ethernet?",
+      "options": {
+        "A": "10 Mbps",
+        "B": "100 Mbps",
+        "C": "1 Gbps",
+        "D": "10 Gbps"
+      },
+      "answer": "B",
+      "explanation": "Fast Ethernet operates at 100 Mbps, while Gigabit Ethernet is 1 Gbps."
+    },
+    {
+      "id": 24,
+      "question": "Which protocol is used for file transfers?",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "FTP",
+        "D": "DHCP"
+      },
+      "answer": "C",
+      "explanation": "FTP (File Transfer Protocol) is specifically designed for transferring files between systems."
+    },
+    {
+      "id": 25,
+      "question": "What does WAN stand for?",
+      "options": {
+        "A": "Wireless Area Network",
+        "B": "Wide Area Network",
+        "C": "Wired Access Node",
+        "D": "Web Access Network"
+      },
+      "answer": "B",
+      "explanation": "WAN (Wide Area Network) covers a large geographic area, often connecting multiple LANs."
+    },
+    {
+      "id": 26,
+      "question": "Which layer of the OSI model deals with encryption?",
+      "options": {
+        "A": "Physical",
+        "B": "Network",
+        "C": "Presentation",
+        "D": "Application"
+      },
+      "answer": "C",
+      "explanation": "The Presentation layer (Layer 6) handles data translation, encryption, and compression."
+    },
+    {
+      "id": 27,
+      "question": "What is the purpose of a default gateway?",
+      "options": {
+        "A": "To connect a local network to other networks",
+        "B": "To encrypt all network traffic",
+        "C": "To assign IP addresses",
+        "D": "To store web pages"
+      },
+      "answer": "A",
+      "explanation": "A default gateway routes traffic from a local network to other networks (typically the Internet)."
+    },
+    {
+      "id": 28,
+      "question": "Which wireless encryption standard is most secure?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA2",
+        "D": "WPA3"
+      },
+      "answer": "D",
+      "explanation": "WPA3 is currently the most secure WiFi encryption standard, followed by WPA2."
+    },
+    {
+      "id": 29,
+      "question": "What is the purpose of the traceroute command?",
+      "options": {
+        "A": "To measure network latency",
+        "B": "To display the path packets take to a destination",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "B",
+      "explanation": "Traceroute shows the route (path) and measures transit delays of packets across an IP network."
+    },
+    {
+      "id": 30,
+      "question": "Which protocol is used for network management?",
+      "options": {
+        "A": "FTP",
+        "B": "SMTP",
+        "C": "SNMP",
+        "D": "HTTP"
+      },
+      "answer": "C",
+      "explanation": "SNMP (Simple Network Management Protocol) is used for collecting and organizing information about network devices."
+    },
+    {
+      "id": 31,
+      "question": "What is the purpose of QoS in networking?",
+      "options": {
+        "A": "To prioritize certain types of network traffic",
+        "B": "To increase overall bandwidth",
+        "C": "To encrypt all communications",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "Quality of Service (QoS) manages network resources by prioritizing specific types of traffic."
+    },
+    {
+      "id": 32,
+      "question": "Which device amplifies signals to extend network coverage?",
+      "options": {
+        "A": "Router",
+        "B": "Switch",
+        "C": "Repeater",
+        "D": "Firewall"
+      },
+      "answer": "C",
+      "explanation": "Repeaters regenerate network signals to extend the range of a network."
+    },
+    {
+      "id": 33,
+      "question": "What does MAC stand for in networking?",
+      "options": {
+        "A": "Media Access Control",
+        "B": "Memory Address Code",
+        "C": "Multiple Access Channel",
+        "D": "Managed Address Configuration"
+      },
+      "answer": "A",
+      "explanation": "MAC (Media Access Control) address is a hardware identifier for network interfaces."
+    },
+    {
+      "id": 34,
+      "question": "Which protocol is used for voice over IP (VoIP)?",
+      "options": {
+        "A": "HTTP",
+        "B": "SMTP",
+        "C": "SIP",
+        "D": "FTP"
+      },
+      "answer": "C",
+      "explanation": "SIP (Session Initiation Protocol) is commonly used for establishing VoIP communications."
+    },
+    {
+      "id": 35,
+      "question": "What is the purpose of a proxy server?",
+      "options": {
+        "A": "To act as an intermediary between clients and servers",
+        "B": "To increase internet speed",
+        "C": "To assign IP addresses",
+        "D": "To encrypt all network traffic"
+      },
+      "answer": "A",
+      "explanation": "Proxy servers act as intermediaries, forwarding client requests to other servers while providing caching and filtering."
+    },
+    {
+      "id": 36,
+      "question": "Which network topology is most fault-tolerant?",
+      "options": {
+        "A": "Bus",
+        "B": "Star",
+        "C": "Ring",
+        "D": "Mesh"
+      },
+      "answer": "D",
+      "explanation": "Mesh topology provides multiple paths between nodes, making it the most fault-tolerant."
+    },
+    {
+      "id": 37,
+      "question": "What is the purpose of the ping command?",
+      "options": {
+        "A": "To test connectivity between devices",
+        "B": "To encrypt data",
+        "C": "To assign IP addresses",
+        "D": "To manage network devices"
+      },
+      "answer": "A",
+      "explanation": "Ping tests reachability of a host and measures round-trip time for messages."
+    },
+    {
+      "id": 38,
+      "question": "Which protocol is used for secure remote login?",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "SSH",
+        "D": "SMTP"
+      },
+      "answer": "C",
+      "explanation": "SSH (Secure Shell) provides encrypted communication for secure remote login and other services."
+    },
+    {
+      "id": 39,
+      "question": "What is the purpose of a VLAN?",
+      "options": {
+        "A": "To logically segment a physical network",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "VLANs (Virtual LANs) logically segment networks without requiring physical separation."
+    },
+    {
+      "id": 40,
+      "question": "Which cable type uses RJ-45 connectors?",
+      "options": {
+        "A": "Coaxial",
+        "B": "Fiber optic",
+        "C": "Twisted pair",
+        "D": "Serial"
+      },
+      "answer": "C",
+      "explanation": "Twisted pair Ethernet cables (UTP/STP) typically use RJ-45 connectors."
+    },
+    {
+      "id": 41,
+      "question": "What is the purpose of the nslookup command?",
+      "options": {
+        "A": "To query DNS servers",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "nslookup is used to query DNS servers to obtain domain name or IP address information."
+    },
+    {
+      "id": 42,
+      "question": "Which protocol is used for clock synchronization?",
+      "options": {
+        "A": "HTTP",
+        "B": "NTP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "NTP (Network Time Protocol) synchronizes clocks across computer networks."
+    },
+    {
+      "id": 43,
+      "question": "What is the purpose of a DMZ in network security?",
+      "options": {
+        "A": "To provide a buffer zone between internal and external networks",
+        "B": "To increase internet speed",
+        "C": "To encrypt all network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "A DMZ (Demilitarized Zone) is a perimeter network that adds an extra layer of security."
+    },
+    {
+      "id": 44,
+      "question": "Which wireless standard has the highest theoretical speed?",
+      "options": {
+        "A": "802.11a",
+        "B": "802.11g",
+        "C": "802.11n",
+        "D": "802.11ac"
+      },
+      "answer": "D",
+      "explanation": "802.11ac (WiFi 5) offers the highest theoretical speeds among these options (up to several Gbps)."
+    },
+    {
+      "id": 45,
+      "question": "What is the purpose of the netstat command?",
+      "options": {
+        "A": "To display network connections and statistics",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "netstat displays network connections, routing tables, interface statistics, and more."
+    },
+    {
+      "id": 46,
+      "question": "Which protocol is used for retrieving email?",
+      "options": {
+        "A": "SMTP",
+        "B": "POP3",
+        "C": "FTP",
+        "D": "HTTP"
+      },
+      "answer": "B",
+      "explanation": "POP3 (Post Office Protocol version 3) is used for retrieving email from a server."
+    },
+    {
+      "id": 47,
+      "question": "What is the purpose of a load balancer?",
+      "options": {
+        "A": "To distribute network traffic across multiple servers",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "Load balancers distribute workloads across multiple computing resources to optimize performance."
+    },
+    {
+      "id": 48,
+      "question": "Which network device operates at all OSI layers?",
+      "options": {
+        "A": "Hub",
+        "B": "Switch",
+        "C": "Router",
+        "D": "Multilayer switch"
+      },
+      "answer": "D",
+      "explanation": "Multilayer switches can operate at multiple layers (including Layer 3 and above) of the OSI model."
+    },
+    {
+      "id": 49,
+      "question": "What is the purpose of the whois command?",
+      "options": {
+        "A": "To query domain registration information",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "whois provides information about domain name registrations and IP address allocations."
+    },
+    {
+      "id": 50,
+      "question": "Which protocol is used for secure file transfer?",
+      "options": {
+        "A": "FTP",
+        "B": "SFTP",
+        "C": "HTTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "SFTP (SSH File Transfer Protocol) provides secure file transfer over SSH."
+    },
+    {
+      "id": 51,
+      "question": "What is the purpose of BGP?",
+      "options": {
+        "A": "To route traffic between autonomous systems",
+        "B": "To assign IP addresses",
+        "C": "To encrypt network traffic",
+        "D": "To manage email servers"
+      },
+      "answer": "A",
+      "explanation": "BGP (Border Gateway Protocol) is the protocol that makes core routing decisions on the Internet."
+    },
+    {
+      "id": 52,
+      "question": "Which network topology requires terminators?",
+      "options": {
+        "A": "Star",
+        "B": "Bus",
+        "C": "Ring",
+        "D": "Mesh"
+      },
+      "answer": "B",
+      "explanation": "Bus topology requires terminators at each end to prevent signal reflection."
+    },
+    {
+      "id": 53,
+      "question": "What is the purpose of the dig command?",
+      "options": {
+        "A": "To query DNS servers",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "dig (Domain Information Groper) is a tool for querying DNS name servers."
+    },
+    {
+      "id": 54,
+      "question": "Which protocol is used for streaming media?",
+      "options": {
+        "A": "HTTP",
+        "B": "RTP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "RTP (Real-time Transport Protocol) is used for delivering audio and video over IP networks."
+    },
+    {
+      "id": 55,
+      "question": "What is the purpose of a honeypot in network security?",
+      "options": {
+        "A": "To detect and study hacking attempts",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "Honeypots are decoy systems designed to attract and study cyber attacks."
+    },
+    {
+      "id": 56,
+      "question": "Which wireless standard operates at 60 GHz?",
+      "options": {
+        "A": "802.11a",
+        "B": "802.11ac",
+        "C": "802.11ad",
+        "D": "802.11ax"
+      },
+      "answer": "C",
+      "explanation": "802.11ad (WiGig) operates at 60 GHz for very high-speed short-range communications."
+    },
+    {
+      "id": 57,
+      "question": "What is the purpose of the route command?",
+      "options": {
+        "A": "To view and modify the IP routing table",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "The route command displays and modifies the local IP routing table."
+    },
+    {
+      "id": 58,
+      "question": "Which protocol is used for network discovery?",
+      "options": {
+        "A": "HTTP",
+        "B": "LLDP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "LLDP (Link Layer Discovery Protocol) is used for network devices to advertise their identity and capabilities."
+    },
+    {
+      "id": 59,
+      "question": "What is the purpose of port forwarding?",
+      "options": {
+        "A": "To redirect communication requests to specific devices",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "Port forwarding directs external network requests to specific devices on a local network."
+    },
+    {
+      "id": 60,
+      "question": "Which network device operates at the Physical layer?",
+      "options": {
+        "A": "Router",
+        "B": "Switch",
+        "C": "Hub",
+        "D": "Bridge"
+      },
+      "answer": "C",
+      "explanation": "Hubs operate at Layer 1 (Physical layer) and simply repeat signals to all ports."
+    },
+    {
+      "id": 61,
+      "question": "What is the purpose of the arp command?",
+      "options": {
+        "A": "To view and modify the ARP cache",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "The arp command displays and modifies the IP-to-MAC address translation tables."
+    },
+    {
+      "id": 62,
+      "question": "Which protocol is used for network monitoring?",
+      "options": {
+        "A": "HTTP",
+        "B": "SNMP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "SNMP (Simple Network Management Protocol) is used for monitoring and managing network devices."
+    },
+    {
+      "id": 63,
+      "question": "What is the purpose of a SAN?",
+      "options": {
+        "A": "To provide block-level storage access",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "A SAN (Storage Area Network) provides block-level storage access to servers."
+    },
+    {
+      "id": 64,
+      "question": "Which wireless security protocol was cracked in minutes?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA",
+        "C": "WPA2",
+        "D": "WPA3"
+      },
+      "answer": "A",
+      "explanation": "WEP (Wired Equivalent Privacy) was quickly cracked and is now considered insecure."
+    },
+    {
+      "id": 65,
+      "question": "What is the purpose of the tcpdump command?",
+      "options": {
+        "A": "To capture and analyze network traffic",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "tcpdump is a packet analyzer that captures and displays network traffic."
+    },
+    {
+      "id": 66,
+      "question": "Which protocol is used for IPv6 neighbor discovery?",
+      "options": {
+        "A": "ARP",
+        "B": "NDP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "NDP (Neighbor Discovery Protocol) performs similar functions to ARP but for IPv6."
+    },
+    {
+      "id": 67,
+      "question": "What is the purpose of a CDN?",
+      "options": {
+        "A": "To distribute content closer to users",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "CDNs (Content Delivery Networks) distribute content to edge servers closer to end users."
+    },
+    {
+      "id": 68,
+      "question": "Which network device can translate between protocols?",
+      "options": {
+        "A": "Router",
+        "B": "Gateway",
+        "C": "Switch",
+        "D": "Hub"
+      },
+      "answer": "B",
+      "explanation": "Gateways can translate between different protocols or data formats."
+    },
+    {
+      "id": 69,
+      "question": "What is the purpose of the iptables command?",
+      "options": {
+        "A": "To configure firewall rules",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "iptables is used to configure Linux firewall rules."
+    },
+    {
+      "id": 70,
+      "question": "Which protocol is used for zero-configuration networking?",
+      "options": {
+        "A": "HTTP",
+        "B": "Bonjour",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "Bonjour (Apple's implementation of mDNS) enables zero-configuration networking."
+    },
+    {
+      "id": 71,
+      "question": "What is the purpose of MPLS?",
+      "options": {
+        "A": "To speed up network traffic flow",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "MPLS (Multiprotocol Label Switching) directs data using short path labels rather than long network addresses."
+    },
+    {
+      "id": 72,
+      "question": "Which network topology is easiest to troubleshoot?",
+      "options": {
+        "A": "Bus",
+        "B": "Star",
+        "C": "Ring",
+        "D": "Mesh"
+      },
+      "answer": "B",
+      "explanation": "Star topology is easiest to troubleshoot because problems are isolated to individual connections."
+    },
+    {
+      "id": 73,
+      "question": "What is the purpose of the nmap command?",
+      "options": {
+        "A": "To scan networks for hosts and services",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "nmap is a network scanner used to discover hosts and services on a network."
+    },
+    {
+      "id": 74,
+      "question": "Which protocol is used for automatic IP configuration in IPv6?",
+      "options": {
+        "A": "DHCP",
+        "B": "SLAAC",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "SLAAC (Stateless Address Autoconfiguration) allows IPv6 hosts to configure themselves automatically."
+    },
+    {
+      "id": 75,
+      "question": "What is the purpose of VXLAN?",
+      "options": {
+        "A": "To create overlay networks",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "VXLAN (Virtual Extensible LAN) creates overlay networks to solve VLAN scalability issues."
+    },
+    {
+      "id": 76,
+      "question": "Which wireless standard introduced OFDMA?",
+      "options": {
+        "A": "802.11ac",
+        "B": "802.11ax",
+        "C": "802.11n",
+        "D": "802.11g"
+      },
+      "answer": "B",
+      "explanation": "802.11ax (WiFi 6) introduced OFDMA (Orthogonal Frequency Division Multiple Access) for more efficient spectrum use."
+    },
+    {
+      "id": 77,
+      "question": "What is the purpose of the ss command?",
+      "options": {
+        "A": "To investigate sockets",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "ss (socket statistics) is used to investigate sockets, replacing the older netstat command."
+    },
+    {
+      "id": 78,
+      "question": "Which protocol is used for secure web browsing?",
+      "options": {
+        "A": "HTTP",
+        "B": "HTTPS",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "HTTPS (HTTP Secure) encrypts web traffic using SSL/TLS."
+    },
+    {
+      "id": 79,
+      "question": "What is the purpose of SDN?",
+      "options": {
+        "A": "To separate control plane from data plane",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "SDN (Software Defined Networking) separates network control from forwarding functions."
+    },
+    {
+      "id": 80,
+      "question": "Which network device can filter traffic based on application content?",
+      "options": {
+        "A": "Router",
+        "B": "Switch",
+        "C": "Application firewall",
+        "D": "Hub"
+      },
+      "answer": "C",
+      "explanation": "Application firewalls (Layer 7 firewalls) can filter traffic based on application content."
+    },
+    {
+      "id": 81,
+      "question": "What is the purpose of the wireshark command?",
+      "options": {
+        "A": "To capture and analyze network packets",
+        "B": "To test network speed",
+        "C": "To encrypt data",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "Wireshark is a GUI-based network protocol analyzer for capturing and examining network traffic."
+    },
+    {
+      "id": 82,
+      "question": "Which protocol is used for synchronizing distributed systems?",
+      "options": {
+        "A": "HTTP",
+        "B": "PTP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "PTP (Precision Time Protocol) is used for synchronizing clocks in distributed systems with high precision."
+    }, 
+    {
+      "id": 83,
+      "question": "What is the purpose of a network tap?",
+      "options": {
+        "A": "To passively monitor network traffic",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "A network tap (Test Access Point) allows passive monitoring of network traffic without disrupting it."
+    },
+    {
+      "id": 84,
+      "question": "Which protocol is used for secure file transfer over SSH?",
+      "options": {
+        "A": "FTP",
+        "B": "SCP",
+        "C": "HTTP",
+        "D": "SMTP"
+      },
+      "answer": "B",
+      "explanation": "SCP (Secure Copy Protocol) is used for securely transferring files over SSH."
+    },
+    {
+      "id": 85,
+      "question": "What is the purpose of a network proxy?",
+      "options": {
+        "A": "To act as an intermediary for requests from clients seeking resources from servers",
+        "B": "To increase internet speed",
+        "C": "To encrypt network traffic",
+        "D": "To assign IP addresses"
+      },
+      "answer": "A",
+      "explanation": "Network proxies forward client requests to servers, providing anonymity and caching."
+ 
+       }   
+]
+    
+    
