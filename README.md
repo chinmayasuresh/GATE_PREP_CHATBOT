@@ -40,5 +40,7 @@ gate_chatbot/
 ### 1. ✅ Install Python dependencies:
 ```bash
 pip install -r requirements.txt
+🧠 Start Ollama with LLaMA 3:
 ollama run llama3
+🎯 Run the Streamlit app:
 streamlit run app.py
